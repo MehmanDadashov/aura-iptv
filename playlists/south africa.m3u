@@ -1,0 +1,43 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bebaae.jpg" group-title="South Africa",1KZN TV (576p) (South Africa)
+https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mcNjuuO.png" group-title="South Africa",BOKTV (720p) [Not 24/7] (South Africa)
+https://livestream2.bokradio.co.za/hls/Bok5c.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Y8FK1Kk.png" group-title="South Africa",Cape Town TV (576p) (South Africa)
+https://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xwGquEb.png" group-title="South Africa",Crime and Evidence (720p) (South Africa)
+https://afxporigin.telemedia.co.za/afxp/abr_crimeandevidence/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lXMzsNM.png" group-title="South Africa",e.tv News & Sport (720p) (South Africa)
+https://origin2.afxp.telemedia.co.za/abr_kapang/enterepreneur/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vCB7u0e.png" group-title="South Africa",GNF TV (576p) (South Africa)
+https://oqgdrb8my4rm-hls-live.5centscdn.com/GNF02/bcea197d8b00f79cb716c6288a861000.sdp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MaLNfJG.png" group-title="South Africa",Homebase TV (480p) (South Africa)
+https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_022/Stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Hg5YTwu.png" group-title="South Africa",LN24SA (1080p) (South Africa)
+https://cdnstack.internetmultimediaonline.org/ln24/ln24.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Fg65XCS.png" group-title="South Africa",LoveworldSAT (1080p) (South Africa)
+https://cdnstack.internetmultimediaonline.org/lwsat/lwsat.stream/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dYRJ7F0.png" group-title="South Africa",NuView TV (360p) (South Africa)
+https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_002/Stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VcwqoEF.png" group-title="South Africa",RLW TV (576p) [Not 24/7] (South Africa)
+https://webstreaming-8.viewmedia.tv/web_119/Stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sbeuEYY.png" group-title="South Africa",ROV TV (576p) (South Africa)
+https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_012/Stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/G8OXWe4.png" group-title="South Africa",SABC 1 (720p) [Geo-blocked] (South Africa)
+https://sabconeta.cdn.mangomolo.com/sabc1/smil:sabc1.stream.smil/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rj6i9sn.png" group-title="South Africa",SABC 2 [Geo-blocked] (South Africa)
+https://sabctwota.cdn.mangomolo.com/sabc2/smil:sabc2.stream.smil/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YhdnZHH.png" group-title="South Africa",SABC Lehae [Geo-blocked] (South Africa)
+https://sabctretalh.cdn.mangomolo.com/lehae/smil:lehae.stream.smil/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/liLta8j.png" group-title="South Africa",SABC News (720p) [Geo-blocked] (South Africa)
+https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MfeKk07.png" group-title="South Africa",Seraphim TV [Not 24/7] (South Africa)
+https://restream.churchtv247.co.za/Apostle/Hggc@24/1.m3u8
+#EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/188/654228e5b5.jpg" group-title="South Africa",Soweto TV (576p) (South Africa)
+https://cdn.freevisiontv.co.za/sttv/smil:soweto.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TrlrcWf.png" group-title="South Africa",Trigger (South Africa)
+https://origin2.afxp.telemedia.co.za/abr/trigger/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/188/654a3ec660.png" group-title="South Africa",Tshwane TV (576p) (South Africa)
+https://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8rKNuS6.png" group-title="South Africa",TV BRICS English (1080p) (South Africa)
+https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8

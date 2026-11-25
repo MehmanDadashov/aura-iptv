@@ -1,0 +1,35 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YWmkUWU.png" group-title="Cyprus",Ada TV (Cyprus)
+https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vhMPYIW.png" group-title="Cyprus",Alfa Sport (1080p) [Not 24/7] (Cyprus)
+https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqx
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2KAObBt.png" group-title="Cyprus",ANT1 Cyprus (1080p) (Cyprus)
+http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oo2fxta.png" group-title="Cyprus",City Channel (720p) [Not 24/7] (Cyprus)
+https://dev.aftermind.xyz/edge-hls/unitrust/citychannel/index.m3u8?token=8TXWzhY3h6jrzqEqx
+#EXTINF:-1 tvg-logo="https://www.ert.gr/wp-content/uploads/2026/05/ert-cosmos-cyprus.svg" group-title="Cyprus",ERT Cosmos Cyprus (1080p) (Cyprus)
+https://ert-live.ascdn.broadpeak.io/bpk-tv/ERTCosmos_Cyprus/default/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oKU5KeW.png" group-title="Cyprus",Middle East TV (1080p) (Cyprus)
+https://content.uplynk.com/channel/9d35b73c264946d5945db6cdff26336e.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/QrSzNn6/31087.png" group-title="Cyprus",Omega Channel (576i) (Cyprus)
+https://l1.cloudskep.com/omegatv/omcy/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/31eq4lS.png" group-title="Cyprus",RIK 1 (Cyprus)
+http://213.7.216.229:8888/udp/239.23.0.1:1234
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EZUDmtI.png" group-title="Cyprus",RIK 2 (Cyprus)
+http://213.7.216.229:8888/udp/239.23.0.2:1234
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xQnHaPy.png" group-title="Cyprus",RIK HD (Cyprus)
+http://213.7.216.229:8888/udp/239.23.0.5:1234
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BIKwFhD.png" group-title="Cyprus",RIK Sat (720p) [Not 24/7] (Cyprus)
+https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BzDjQeQ.png" group-title="Cyprus",Sat 7 Arabic (240p) (Cyprus)
+https://svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/M0ik0i2.png" group-title="Cyprus",Sat 7 Kids (1080p) (Cyprus)
+https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VTLQeul.png" group-title="Cyprus",Sat 7 Pars (Cyprus)
+https://sat7phls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cKQIK4i.png" group-title="Cyprus",Sat 7 Turk (1080p) (Cyprus)
+https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DXKx102.png" group-title="Cyprus",Sigma TV (576p) [Not 24/7] (Cyprus)
+https://sl2.sigmatv.com/hls/live.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/tzQ3jCR/cropped-VOULI-TV-LOGO-HIGH-RESOLUTION-BLUE.png" group-title="Cyprus",Vouli TV (1080p) [Not 24/7] (Cyprus)
+https://dev.aftermind.xyz/edge-hls/unitrust/voulitv/index.m3u8?token=8TXWzhY3h6jrzqEqx

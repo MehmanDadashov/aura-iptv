@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AURA IPTV</string>
+    <string name="title_activity_main">AURA IPTV</string>
+    <string name="package_name">com.auraiptv.app</string>
+    <string name="custom_url_scheme">com.auraiptv.app</string>
+
+    <!-- Monetization: one ad unit PER FORMAT. Never reuse a single unit for
+         banner/interstitial/rewarded — AdMob units are format-bound and
+         cross-format requests do not fill.
+
+         Replace these values with real units from AdMob console
+         (https://apps.admob.com -> Apps -> AURA IPTV -> Ad units).
+         Create exactly three: Banner, Interstitial, Rewarded.
+         The Google test defaults keep the build serving test ads until then. -->
+    <string name="ad_unit_banner" translatable="false">ca-app-pub-1872308537877958/6152009172</string>
+    <string name="ad_unit_interstitial" translatable="false">ca-app-pub-1872308537877958/7232194460</string>
+    <string name="ad_unit_rewarded" translatable="false">ca-app-pub-1872308537877958/6981360138</string>
+</resources>

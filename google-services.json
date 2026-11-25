@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946874113892",
+    "project_id": "aura-iptv-af0a3",
+    "storage_bucket": "aura-iptv-af0a3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946874113892:android:559dfaf1054bb7eb5fa471",
+        "android_client_info": {
+          "package_name": "com.auraiptv.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLakA3AN-ghusLpSdaoOz8TvC01bi5bfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

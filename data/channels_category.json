@@ -1,0 +1,122 @@
+[
+  {
+    "name": "General",
+    "count": 2726
+  },
+  {
+    "name": "Undefined",
+    "count": 1532
+  },
+  {
+    "name": "News",
+    "count": 963
+  },
+  {
+    "name": "Entertainment",
+    "count": 880
+  },
+  {
+    "name": "Religious",
+    "count": 765
+  },
+  {
+    "name": "Music",
+    "count": 752
+  },
+  {
+    "name": "Movies",
+    "count": 735
+  },
+  {
+    "name": "Sports",
+    "count": 439
+  },
+  {
+    "name": "Series",
+    "count": 383
+  },
+  {
+    "name": "Kids",
+    "count": 341
+  },
+  {
+    "name": "Documentary",
+    "count": 246
+  },
+  {
+    "name": "Education",
+    "count": 195
+  },
+  {
+    "name": "Culture",
+    "count": 193
+  },
+  {
+    "name": "Legislative",
+    "count": 182
+  },
+  {
+    "name": "Animation",
+    "count": 175
+  },
+  {
+    "name": "Comedy",
+    "count": 155
+  },
+  {
+    "name": "Lifestyle",
+    "count": 115
+  },
+  {
+    "name": "Classic",
+    "count": 106
+  },
+  {
+    "name": "Shop",
+    "count": 76
+  },
+  {
+    "name": "Business",
+    "count": 74
+  },
+  {
+    "name": "Outdoor",
+    "count": 64
+  },
+  {
+    "name": "Cooking",
+    "count": 59
+  },
+  {
+    "name": "Family",
+    "count": 51
+  },
+  {
+    "name": "Travel",
+    "count": 45
+  },
+  {
+    "name": "Auto",
+    "count": 30
+  },
+  {
+    "name": "Weather",
+    "count": 16
+  },
+  {
+    "name": "Science",
+    "count": 13
+  },
+  {
+    "name": "Relax",
+    "count": 7
+  },
+  {
+    "name": "Public",
+    "count": 4
+  },
+  {
+    "name": "Interactive",
+    "count": 1
+  }
+]

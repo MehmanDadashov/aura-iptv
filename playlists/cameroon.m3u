@@ -1,0 +1,35 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/spQgX7X.png" group-title="Cameroon",Afrique Media (720p) (Cameroon)
+https://cloud.odysee.live/content/fe06b3cdc9412e359368b2455b6ea5e93856e382/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WIaRpiS.png" group-title="Cameroon",Afrique54 TV (720p) (Cameroon)
+https://video1.getstreamhosting.com:1936/8318/8318/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Allo%20Cine.jpeg" group-title="Cameroon",Allo Cine (1080p) (Cameroon)
+https://d1yl6bf4hrzbr0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5km3zs4zs9sp0/allo.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EqOzhYw.png" group-title="Cameroon",Balafon TV [Geo-blocked] (Cameroon)
+https://broadcasting-channels.com:9044/hls/test.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xspb9uY.png" group-title="Cameroon",CAM 10 TV (720p) (Cameroon)
+https://stream.it-innov.com/cam10tv/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cQWNh3L.png" group-title="Cameroon",CRTV (Cameroon) (Cameroon)
+https://10gb1.acangroup.org:1929/crtv/crtv_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5CshVf9.png" group-title="Cameroon",CRTV News (Cameroon)
+https://live1.acangroup.org:1929/publiclive/crtv_news/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DiIei9F.png" group-title="Cameroon",CRTV Sports and Entertainment SD (360p) (Cameroon)
+https://live1.acangroup.org:1929/publiclive/crtv_sport/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1oMboXL.png" group-title="Cameroon",For You TV (Cameroon)
+https://stream.az-multimedia.com:3325/live/foryoutvlive.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NZ0YqOb.jpeg" group-title="Cameroon",Kemet TV (Cameroon)
+https://kemettv.cm/memfs/4e7fb105-9f92-4e8d-a7cd-09923f17a577.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zzG1S2n.png" group-title="Cameroon",Laura Dave Media TV (720p) (Cameroon)
+https://streaming.lauradavemedia.com/ldm/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKSLNHB.png" group-title="Cameroon",My Righteous TV (Cameroon)
+https://live20.bozztv.com/ssh101/ssh101/myrighteous/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vh2373L.png" group-title="Cameroon",My TV Channel (720p) [Not 24/7] (Cameroon)
+http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wneSSYM.png" group-title="Cameroon",Panafrican Media TV (480p) (Cameroon)
+https://live20.bozztv.com/giatv/giatv-pmtv/pmtv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1dmBqpf.png" group-title="Cameroon",Play TV (Cameroon) (720p) [Not 24/7] (Cameroon)
+http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/H4VktvG/Plex-TV-237.jpg" group-title="Cameroon",PLEX TV (Cameroon)
+http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/fQrBY1M/tr24-telepack.jpg" group-title="Cameroon",TR24 Television (720p) (Cameroon)
+https://stream.it-innov.com/tr24/index.m3u8

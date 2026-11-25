@@ -1,0 +1,69 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/L3RA9Lv.png" group-title="Israel",5Plus (1080p) (Israel)
+http://89.33.29.115:8080/sportplus/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IQtAKIa.png" group-title="Israel",5Stars (1080p) (Israel)
+http://89.33.29.115:8080/IL_5Stars/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Israel",Angel TV Hebrew (720p) (Israel)
+https://janya-digimix.akamaized.net/vglive-sk-150533/hebrew/ngrp:angelhebrew_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/eFM3bTq.png" group-title="Israel",Channel 13 (Israel) (1080p) (Israel)
+http://stream.mcquack.net/295/index.m3u8
+#EXTINF:-1 tvg-logo="https://ch16israel.vod.immergo.tv/ch16israel/uploaded/bfbd4781-67a7-437e-8f7e-898a5cbc4ab4.png" group-title="Israel",Channel 16 (Israel)
+https://ch16israel-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WLs67QI.png" group-title="Israel",Channel 24 (Israel) (1080p) (Israel)
+http://stream.mcquack.net/42/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pttM3KQ.png" group-title="Israel",Channel 9 (Israel) (1080p) (Israel)
+https://contact.gostreaming.tv/Con-11/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/fc0d8109a18a4db3b585f154d32bd5b1/version/93/width/288/height/153/" group-title="Israel",Comedy Channel (1080p) (Israel)
+https://d15ds134q59udk.cloudfront.net/out/v1/fbba879221d045598540ee783b140fe2/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.epg.one/img2/2686.png" group-title="Israel",Good Life (576p) (Israel)
+http://stream.mcquack.net/47/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/028M4Ew.png" group-title="Israel",Hala TV (1080p) [Not 24/7] (Israel)
+https://stream.panet.com/edge/halaTV/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.epg.one/img2/2709.png" group-title="Israel",Health Channel (1080p) (Israel)
+http://89.33.29.115:8080/Health/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CTH4Hu2.png" group-title="Israel",Hidabroot (1080p) (Israel)
+https://cdn.cybercdn.live/HidabrootIL/Live97/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bScuilD.png" group-title="Israel",Hop! (1080p) (Israel)
+http://stream.mcquack.net/44/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HotNewLogo.svg/250px-HotNewLogo.svg.png" group-title="Israel",HOT Drama (1080p) (Israel)
+http://stream.mcquack.net/381/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/0/00/HOT_Zone.svg/250px-HOT_Zone.svg.png" group-title="Israel",HOT Zone (1080p) (Israel)
+http://stream.mcquack.net/379/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" group-title="Israel",i24NEWS Arabic (1080p) (Israel)
+https://i24newsarabic-cdn.encoders.immergo.tv/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" group-title="Israel",i24NEWS French (1080p) (Israel)
+https://i24newsfrench-cdn.encoders.immergo.tv/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.i24news.tv/images/favicon.png" group-title="Israel",i24NEWS Hebrew (1080p) (Israel)
+https://i24newshebrew-cdn.encoders.immergo.tv/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VxAHOgr.png" group-title="Israel",Kabbalah for the People Israel (504p) [Not 24/7] (Israel)
+https://edge3.uk.kab.tv/live/tv66-heb-high/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/960px-Kan11Logo.svg.png" group-title="Israel",Kan 11 (1080p) (Israel)
+https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/960px-KanHinuchit.svg.png" group-title="Israel",Kan Educational (720p) (Israel)
+http://stream.mcquack.net/378/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fY3eakc.png" group-title="Israel",Keshet 12 (1080p) (Israel)
+http://stream.mcquack.net/294/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QXB1jv8.png" group-title="Israel",Knesset Channel (576p) (Israel)
+http://stream.mcquack.net/48/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RVtQTed.png" group-title="Israel",Makan 33 (1080p) (Israel)
+https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Iq2Kb69.png" group-title="Israel",Now 14 (1080p) (Israel)
+https://r.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://static.g-cdn.app/streams/yes-reality-channel-il-hd.png" group-title="Israel",Reality Channel (Israel)
+https://d2dffl3588mvfk.cloudfront.net/out/v1/d8e15050ca4148aab0ee387a5e2eb46b/index_1.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZpUNou4.png" group-title="Israel",RTG int. (Israel)
+http://213.91.179.28:8000/play/a0bw
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UVz2Ojq.png" group-title="Israel",Shelanu.TV (720p) (Israel)
+https://1247634592.rsc.cdn77.org/1247634592/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TeenNick_2019_logo.svg/960px-TeenNick_2019_logo.svg.png" group-title="Israel",TeenNick (Israel) (406p) (Israel)
+http://89.33.29.115:8080/TeenNick/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.g-cdn.app/streams/vacation-channel-il-hd.png" group-title="Israel",Vacation Channel (Israel)
+https://d1yd8hohnldm33.cloudfront.net/out/v1/19dee23c2cc24f689bd4e1288661ee0c/index_2.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.epg.one/img2/9055.png" group-title="Israel",Viva Premium (1080p) (Israel)
+http://stream.mcquack.net/43/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/5/58/YamTichoniChannel.svg/1280px-YamTichoniChannel.svg.png" group-title="Israel",Yam Tichoni (1080p) (Israel)
+http://stream.mcquack.net/46/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Bgz7p5F.png" group-title="Israel",Yes Movies Action (1080p) (Israel)
+http://stream.mcquack.net/380/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KnBzNtA.png" group-title="Israel",Zoom (Israel) (576p) (Israel)
+http://stream.mcquack.net/377/index.m3u8

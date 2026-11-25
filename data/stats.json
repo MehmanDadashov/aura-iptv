@@ -1,0 +1,27 @@
+{
+  "total": 15519,
+  "active": 15519,
+  "before": 36487,
+  "removed": {
+    "broken_url": 1991,
+    "probe_failed": 10876,
+    "duplicates": 8101
+  },
+  "resolution": {
+    "2160p": 6,
+    "1440p": 38,
+    "1080p": 4830,
+    "720p": 3920,
+    "576p": 1001,
+    "560p": 4,
+    "480p": 515,
+    "360p": 484,
+    "240p": 60,
+    "SD": 8,
+    "Unknown": 4653
+  },
+  "countries": 179,
+  "categories": 30,
+  "withLogo": 15306,
+  "updated": "2026-11-20"
+}

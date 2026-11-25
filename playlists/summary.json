@@ -1,0 +1,192 @@
+{
+  "total": 11320,
+  "categories": 30,
+  "languages": 132,
+  "countries": 182,
+  "topCategories": [
+    {
+      "name": "general",
+      "count": 2726
+    },
+    {
+      "name": "undefined",
+      "count": 1532
+    },
+    {
+      "name": "news",
+      "count": 962
+    },
+    {
+      "name": "entertainment",
+      "count": 880
+    },
+    {
+      "name": "religious",
+      "count": 765
+    },
+    {
+      "name": "music",
+      "count": 752
+    },
+    {
+      "name": "movies",
+      "count": 735
+    },
+    {
+      "name": "sports",
+      "count": 439
+    },
+    {
+      "name": "series",
+      "count": 383
+    },
+    {
+      "name": "kids",
+      "count": 341
+    },
+    {
+      "name": "documentary",
+      "count": 246
+    },
+    {
+      "name": "education",
+      "count": 195
+    },
+    {
+      "name": "culture",
+      "count": 193
+    },
+    {
+      "name": "legislative",
+      "count": 182
+    },
+    {
+      "name": "animation",
+      "count": 175
+    }
+  ],
+  "topLanguages": [
+    {
+      "name": "english",
+      "count": 2739
+    },
+    {
+      "name": "spanish",
+      "count": 2291
+    },
+    {
+      "name": "russian",
+      "count": 567
+    },
+    {
+      "name": "portuguese",
+      "count": 463
+    },
+    {
+      "name": "french",
+      "count": 383
+    },
+    {
+      "name": "arabic",
+      "count": 355
+    },
+    {
+      "name": "hindi",
+      "count": 317
+    },
+    {
+      "name": "italian",
+      "count": 315
+    },
+    {
+      "name": "german",
+      "count": 305
+    },
+    {
+      "name": "chinese",
+      "count": 216
+    },
+    {
+      "name": "dutch",
+      "count": 205
+    },
+    {
+      "name": "persian",
+      "count": 194
+    },
+    {
+      "name": "romanian",
+      "count": 171
+    },
+    {
+      "name": "indonesian",
+      "count": 169
+    },
+    {
+      "name": "turkish",
+      "count": 156
+    }
+  ],
+  "topCountries": [
+    {
+      "name": "United States",
+      "count": 1388
+    },
+    {
+      "name": "India",
+      "count": 788
+    },
+    {
+      "name": "Russia",
+      "count": 495
+    },
+    {
+      "name": "International",
+      "count": 446
+    },
+    {
+      "name": "Brazil",
+      "count": 395
+    },
+    {
+      "name": "Italy",
+      "count": 326
+    },
+    {
+      "name": "Spain",
+      "count": 313
+    },
+    {
+      "name": "Dominican Republic",
+      "count": 252
+    },
+    {
+      "name": "Canada",
+      "count": 250
+    },
+    {
+      "name": "Chile",
+      "count": 232
+    },
+    {
+      "name": "United Kingdom",
+      "count": 232
+    },
+    {
+      "name": "Argentina",
+      "count": 207
+    },
+    {
+      "name": "Germany",
+      "count": 203
+    },
+    {
+      "name": "France",
+      "count": 183
+    },
+    {
+      "name": "Poland",
+      "count": 183
+    }
+  ]
+}

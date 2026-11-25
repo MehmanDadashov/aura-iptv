@@ -1,0 +1,171 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tTCuczU.png" group-title="Slovakia",:24 (1080p) (Slovakia)
+http://88.212.15.17/live/test_trojka_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="Slovakia",AMC Europe Czech Republic (Slovakia)
+http://88.212.15.17/live/test_amc_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Q0qL60o.png" group-title="Slovakia",Antik Info TV (1080p) (Slovakia)
+https://dash4.antik.sk/live/test_infokanal_tizen/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2qf67zW.png" group-title="Slovakia",Arena Sport 1 (Slovakia)
+http://88.212.15.17/live/test_arenasport/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Yq3Jf19.png" group-title="Slovakia",Arena Sport 2 (Slovakia)
+http://88.212.15.17/live/test_arenasport_dva/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/47IKxmt.png" group-title="Slovakia",AXN White (United States) (Slovakia)
+https://onyx1.mofta1.cfd/axwhite/usergenx23rnd.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Logo-krimi-barrandov-color.svg/960px-Logo-krimi-barrandov-color.svg.png" group-title="Slovakia",Barrandov Krimi (1080p) (Slovakia)
+https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Canal%2B_Action_2024.svg/1920px-Canal%2B_Action_2024.svg.png" group-title="Slovakia",Canal+ Action Europe Czechia (Slovakia)
+http://46.149.191.219:9106/play/a01g
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Canal%2B_Action_2024.svg/1920px-Canal%2B_Action_2024.svg.png" group-title="Slovakia",Canal+ Action Europe Slovakia (720p) (Slovakia)
+http://151.80.18.177:86/Canal+_Family_HD/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ab/CANAL%2B_SPORT_2.svg/revision/latest?cb=20241028202739" group-title="Slovakia",Canal+ Sport 2 SK (Slovakia)
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport2/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4c/CANAL%2B_SPORT_3.svg/revision/latest?cb=20241028202810" group-title="Slovakia",Canal+ Sport 3 SK (Slovakia)
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport3/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/82/CANAL%2B_SPORT_4.svg/revision/latest?cb=20241028202820" group-title="Slovakia",Canal+ Sport 4 SK (Slovakia)
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport4/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/39/CANAL%2B_SPORT_5.svg/revision/latest?cb=20241028202829" group-title="Slovakia",Canal+ Sport 5 SK (Slovakia)
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport5/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3b/Canal%2B_Sport_6.svg/revision/latest?cb=20251106141229" group-title="Slovakia",Canal+ Sport 6 SK (Slovakia)
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport6/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/03/Canal%2B_Sport_7.svg/revision/latest?cb=20251106141245" group-title="Slovakia",Canal+ Sport 7 SK (Slovakia)
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport7/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/64/Canal%2B_Sport_8.svg/revision/latest?cb=20251106141257" group-title="Slovakia",Canal+ Sport 8 SK (Slovakia)
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport8/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Canal%2B_Sport_2023.svg/revision/latest?cb=20230901182304" group-title="Slovakia",Canal+ Sport SK (Slovakia)
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Slovakia",Disney Channel (Czech Republic) (Slovakia)
+http://88.212.15.17/live/test_disney/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RFhxfOx.png" group-title="Slovakia",ducktv PLUS (Slovakia)
+https://dash3.antik.sk/live/test_duck_plus/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ft10wQn.png" group-title="Slovakia",Dvojka (Slovakia)
+http://88.212.15.17/live/test_dvojka_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OBYuY3S.png" group-title="Slovakia",Film+ (Czech Republic) (Slovakia)
+http://88.212.15.17/live/test_film_plus_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bcomedy.png" group-title="Slovakia",FILMBOX+ Comedy Czechia (Slovakia)
+http://88.212.15.17/live/test_filmbox_family_atk_1200/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png" group-title="Slovakia",FILMBOX+ Emotion Czechia (Slovakia)
+http://88.212.15.17/live/test_film_boxextra_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png" group-title="Slovakia",FILMBOX+ Hits Czechia (Slovakia)
+http://88.212.15.17/live/test_film_boxpremium_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" group-title="Slovakia",FILMBOX+ Love & Crime (Slovakia)
+http://88.212.15.17/live/test_filmbox_plus_atk_1200/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" group-title="Slovakia",FILMBOX+ One Czechia (Slovakia)
+http://88.212.15.17/live/test_filmbox/playlist.m3u8
+#EXTINF:-1  group-title="Slovakia",HAHA TV (Slovakia)
+https://dash3.antik.sk/live/test_haha_tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/aqVki9i.png" group-title="Slovakia",Jednotka (Slovakia)
+http://88.212.15.17/live/test_jednotka_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kino_Barrandov_logo.png/960px-Kino_Barrandov_logo.png" group-title="Slovakia",Kino Barrandov (Slovakia)
+http://88.212.15.17/live/test_kino_barrandov_sd_hevc50/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jO8kAY2.png" group-title="Slovakia",LifeTv (1080p) (Slovakia)
+https://lifetv.mpks.sk/s.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WWOlm1x.png" group-title="Slovakia",Minimax CEE (576p) (Slovakia)
+http://88.212.15.17/live/test_minimax/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.mtr.sk/img/logo-mtr-0.png" group-title="Slovakia",MTR (1080p) (Slovakia)
+https://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Slovakia",National Geographic (Czech Republic) (Slovakia)
+http://88.212.15.17/live/test_ngc/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Slovakia",National Geographic Wild (Czech Republic) (Slovakia)
+http://88.212.15.17/live/test_ngw/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jGZlnzT.png" group-title="Slovakia",NZTV (Slovakia)
+https://dash2.antik.sk/live/test_nove_zamky/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%93%C4%8Dko_logo_2012.png/960px-%C3%93%C4%8Dko_logo_2012.png" group-title="Slovakia",Ocko (540p) (Slovakia)
+https://ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko.stream.1.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Prima_COOL_SK_logo.png" group-title="Slovakia",Prima Cool SK (1080p) (Slovakia)
+http://88.212.15.17/live/prima_cool_avc_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.jojgroup.sk/wp-content/uploads/PRIMA-KRIMI-SK-2-scaled.png" group-title="Slovakia",Prima Krimi SK (Slovakia)
+http://88.212.15.17/live/prima_krimi_avc_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.jojgroup.sk/wp-content/uploads/PRIMA-LOVE-1.png" group-title="Slovakia",Prima love SK (1080p) (Slovakia)
+http://88.212.15.17/live/prima_love_avc_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/PRIMA_SK_logo_RGB.png" group-title="Slovakia",Prima SK (Slovakia)
+http://88.212.15.17/live/test_prima_plus_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WlF6tlZ.png" group-title="Slovakia",Regio TV (406p) (Slovakia)
+http://tv.geniusnet.sk:8081/regiotv/pl.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pyOjdZs.png" group-title="Slovakia",Retro Music TV (360p) (Slovakia)
+https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZpUNou4.png" group-title="Slovakia",RTG int. (Slovakia)
+http://213.91.179.28:8000/play/a0bw
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1qJMmBu.png" group-title="Slovakia",Senzi (720p) (Slovakia)
+http://lb.streaming.sk/senzi/stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hKdXwrW.png" group-title="Slovakia",Slager Muzika (Slovakia)
+https://stream-23.mazana.tv/slagrmuzika.m3u8s
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0YjeWcq.png" group-title="Slovakia",Slager Original (Slovakia)
+https://stream-13.mazana.tv/slagroriginal.m3u8s
+#EXTINF:-1 tvg-logo="https://i.imgur.com/F5Uosum.png" group-title="Slovakia",Spektrum (Czech Republic) (Slovakia)
+http://88.212.15.17/live/test_spektrum/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VaVi65F.png" group-title="Slovakia",Spektrum Home (Czech Republic) (Slovakia)
+http://88.212.15.17/live/test_home_hevc/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oAtcxNZ.png" group-title="Slovakia",Sport (Slovakia) (1080p) (Slovakia)
+http://88.212.15.17/live/test_rtvs_sport_hevc/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/X5X3tKC.png" group-title="Slovakia",Sport1 (Slovakia)
+http://88.212.15.17/live/test_sport1_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UxflVoU.png" group-title="Slovakia",Sport2 (Slovakia)
+http://88.212.15.17/live/test_sport_2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/psb8GxZ.png" group-title="Slovakia",Televizia Mocenok (720p) (Slovakia)
+https://5ca49f2417d90.streamlock.net/mocenok/livestream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HI7bCHq.png" group-title="Slovakia",Turbo TV (1080p) (Slovakia)
+https://dash3.antik.sk/live/turbo_tv_avc_25p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/59LpYoF.png" group-title="Slovakia",TV Brezova (540p) (Slovakia)
+http://95.105.193.219:88/hls/tvb.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LqGT8o9.png" group-title="Slovakia",TV Central (540p) (Slovakia)
+https://arenasportslovakia.ddns.net/hls/cetv2.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qTOnPXe.png" group-title="Slovakia",TV DK (486p) [Not 24/7] (Slovakia)
+http://80.94.54.11:1935/live/dolnykubin1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CkvB3af.png" group-title="Slovakia",TV Liptov (1080p) (Slovakia)
+http://95.105.255.137:1935/tvturiec/tvliptov.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xN1CJol.png" group-title="Slovakia",TV LocAll (406p) (Slovakia)
+http://tv.geniusnet.sk:8081/localltv/pl.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mAMyTkq.png" group-title="Slovakia",TV Lux (Slovakia) (720p) [Not 24/7] (Slovakia)
+https://stream.tvlux.sk/lux/ngrp:lux.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IOJ6rcb.jpeg" group-title="Slovakia",TV Mistral (Slovakia)
+https://dash3.antik.sk/live/test_mistral_atktv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9f9VmvF.png" group-title="Slovakia",TV Myjava (540p) (Slovakia)
+http://95.105.193.219:88/hls/tvm.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iwWyG1A.png" group-title="Slovakia",TV Nitricka (Slovakia)
+https://dash4.antik.sk/live/test_nitricka/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hsJsu3I.png" group-title="Slovakia",TV NRSR (720p) [Not 24/7] (Slovakia)
+https://n11.stv.livebox.sk/stv-tv/stv4.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0YtCG4Y.png" group-title="Slovakia",TV Panorama (Slovakia)
+https://public.live.rebit.tv/live/20750f0b-e12d-4915-a4c3-47c5db9ccbf6/main.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NSabYyT.png" group-title="Slovakia",TV Paprika (Czech Republic) (Slovakia)
+http://88.212.15.17/live/test_parpika_tv_sd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/x6ZvOp6.png" group-title="Slovakia",TV Poprad (1080p) [Not 24/7] (Slovakia)
+http://213.81.153.221:8080/poprad
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JRD9YIY.png" group-title="Slovakia",TV Povazie (1080p) (Slovakia)
+https://dash3.antik.sk/live/test_povazie/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CGckMyx.png" group-title="Slovakia",TV Raj (720p) [Not 24/7] (Slovakia)
+https://ottst05.flexitv.sk/2827-tv-pc.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/r7avFBX.png" group-title="Slovakia",TV Romana (720p) (Slovakia)
+http://88.212.7.11/live/test_tv_romana_web_player/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bUGuntH.png" group-title="Slovakia",TV Ruzinov (1080p) [Not 24/7] (Slovakia)
+http://lb.streaming.sk/tvruzinov/stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ckm2oLD.png" group-title="Slovakia",TV Sen (540p) (Slovakia)
+http://95.105.193.219:88/hls/tvsen.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oQSee9S.png" group-title="Slovakia",TV Severka (576p) [Not 24/7] (Slovakia)
+http://88.212.7.11/live/test_severka_web_player/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GB8fMoJ.png" group-title="Slovakia",TV Skalica (540p) (Slovakia)
+http://95.105.193.219:88/hls/tvs.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kerkvRX.png" group-title="Slovakia",TV Stara Tura (540p) (Slovakia)
+http://95.105.193.219:88/hls/tvst.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Qw3NeLA.png" group-title="Slovakia",TV Vega (576p) [Not 24/7] (Slovakia)
+http://88.212.7.11/live/test_tv_vega_web_player/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Cx1GLbo.png" group-title="Slovakia",TV Vita (Slovakia)
+https://dash3.antik.sk/live/test_vita/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Z7URrp1.png" group-title="Slovakia",TV8 (Slovakia) (576p) (Slovakia)
+http://109.74.145.11:1935/tv8/ngrp:tv8.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Sco4x8t.png" group-title="Slovakia",TV9 (Slovakia) (Slovakia)
+https://dash4.antik.sk/live/test_tv9/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QG0iZlG.png" group-title="Slovakia",TVT (Slovakia) (486p) (Slovakia)
+https://5ca49f2417d90.streamlock.net/live/turzovka/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://web02.antik.sk/assets/img/channels/247e7974b5eeaeda06744f312d2bbc51.svg" group-title="Slovakia",VIA TV (Slovakia)
+http://88.212.15.17/live/via_tv/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DyT5pKB.png" group-title="Slovakia",Viasat Explore (Czech Republic) (Slovakia)
+http://88.212.15.17/live/test_viasat_explore_atk_tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wRP9XA7.png" group-title="Slovakia",Viasat History (Czech Republic) (Slovakia)
+http://88.212.15.17/live/test_viasat_history_atk_tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ousRqqD.png" group-title="Slovakia",Viasat Nature (Czech Republic) (Slovakia)
+http://88.212.15.17/live/test_viasat_nature_atk_tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7EL3VZ5.png" group-title="Slovakia",VIO TV (480p) (Slovakia)
+http://slovanet-livestream.ceelabs.com:1935/live/VioTV.stream_transcoded/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/D72Y1IB.png" group-title="Slovakia",Zapadoslovenska TV (Slovakia)
+https://dash2.antik.sk/live/test_zapadoslovenska/playlist.m3u8

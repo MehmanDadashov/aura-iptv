@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/FHPrsr391mPFqKfTq6ZdvWPZNVfsZeTAVQ8rjQF-NosnRdNipUy5xa43RWkiF4tGcQU" group-title="Libya",Al Masar TV (576p) (Libya)
+https://starmenajo.com/hls/almasar/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xkQKVGi.png" group-title="Libya",Libya Al Ahrar TV (1080p) (Libya)
+https://stream-hls.castr.net/64490fcefe045f1b63012886/live_22d9a1f0c69c11ee9441219c2cc6d61f/index.fmp4.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KSUny9D.jpeg" group-title="Libya",Libya Al Wataniya (360p) (Libya)
+https://cdn-globecast.akamaized.net/live/eds/libya_al_watanya/hls_roku/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZBV6xph.png" group-title="Libya",StoryChannel TV (720p) (Libya)
+https://136044159.r.cdnsun.net/storychannel.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iBAhM2v.png" group-title="Libya",Tanasuh TV (1080p) (Libya)
+https://kilolink.pulsarstarsolutions.com/live/smil:tanasuhtv.smil/manifest.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/f9pL2NE.png" group-title="Libya",Wasat TV (1080p) (Libya)
+https://alwasattv.hibridcdn.net/alwasattv/alwasat_abr/playlist.m3u8

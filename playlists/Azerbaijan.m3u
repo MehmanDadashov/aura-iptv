@@ -1,0 +1,58 @@
+#EXTM3U
+#EXTINF:-1 tvg-country="AZ"
+#EXTINF:-1 tvg-logo="" group-title="culture",
+https://iptv-org.github.io/iptv/streams/MedeniyyetTV.az-SD.m3u8
+#EXTINF:-1 tvg-logo="" group-title="education",
+https://nl.livekadeh.com/hls2/vilayet.m3u8
+#EXTINF:-1 tvg-logo="" group-title="entertainment",
+https://iptv-org.github.io/iptv/streams/ShowPlusTV.az-SD.m3u8
+https://tv.gunaz.tv/hls/live.m3u8
+#EXTINF:-1 tvg-logo="" group-title="general",
+https://iptv-org.github.io/iptv/streams/AlvinChannelTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/ARB.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/AyazTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/AzTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/AzadTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/DunyaTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/ELTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/IctimaiTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/Kanal35.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/MuganTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/NaxcivanTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/QafqazTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/QebeleTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/SesTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/SpaceTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/VilayetTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/XezerTV.az-SD.m3u8
+https://svln.li/anewz.m3u8
+#EXTINF:-1 tvg-logo="" group-title="kids",
+https://iptv-org.github.io/iptv/streams/ARBGunes.az-SD.m3u8
+#EXTINF:-1 tvg-logo="" group-title="lifestyle",
+https://iptv-org.github.io/iptv/streams/SehiyyeTV.az-SD.m3u8
+#EXTINF:-1 tvg-logo="" group-title="music",
+https://iptv-org.github.io/iptv/streams/KNMusicTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/MuzTV.az-SD.m3u8
+https://v2.catcast.tv/content/47437/seg-25409996-v1-a1/index.m3u8
+https://v2.catcast.tv/content/50265/seg-25409976-v1-a1/index.m3u8
+https://cdn-sinematv.yayin.com.tr/sinematv/sinematv/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="news",
+https://iptv-org.github.io/iptv/streams/AnewZTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/APATv.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/ARB24.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/BakuTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/KapazTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/MediaTurkTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/ReaksiyaTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/ToplumTV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/XezerXeber.az-SD.m3u8
+https://stream.itv.az/rtmp:/radio/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="outdoor",
+https://iptv-org.github.io/iptv/streams/AgroTVAzerbaijan.az-SD.m3u8
+#EXTINF:-1 tvg-logo="" group-title="religious",
+https://iptv-org.github.io/iptv/streams/114TV.az-SD.m3u8
+https://iptv-org.github.io/iptv/streams/QlobalTV.az-SD.m3u8
+#EXTINF:-1 tvg-logo="" group-title="sports",
+https://iptv-org.github.io/iptv/streams/CBCSport.az-HD.m3u8
+https://iptv-org.github.io/iptv/streams/IdmanTV.az-SD.m3u8
+https://idman.tvstream.az/hls/stream4/stream.m3u8

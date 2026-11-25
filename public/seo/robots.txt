@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tv.ai-studio.se/seo/sitemap.xml
+
+# AURA IPTV — Free live TV player
+# No private areas to disallow

@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2tlFMXF.png" group-title="Somalia",Arlaadi TV (Somalia)
+https://ap02.iqplay.tv:8082/iqb8002/alr114iapp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Kk0A2o7.png" group-title="Somalia",Hirshabelle TV (576p) (Somalia)
+http://ap02.iqplay.tv:8081/iqb8002/h1rshbe1iptv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/C8EvQUo.png" group-title="Somalia",Puntland TV (720p) (Somalia)
+http://cdn.mediavisionuae.com:1935/live/putlandtv2.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JEC1J89.png" group-title="Somalia",Saab TV (576p) (Somalia)
+https://ap02.iqplay.tv:8082/iqb8002/s03btv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VLhgTIA.png" group-title="Somalia",SBC TV (720p) [Not 24/7] (Somalia)
+http://cdn.mediavisionuae.com:1935/live/sbctv.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zmVKI26.jpg" group-title="Somalia",SNTV Daljir (576p) (Somalia)
+https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2y8gv7V.png" group-title="Somalia",Somali National TV (576p) (Somalia)
+https://ap02.iqplay.tv:8082/iqb8002/s4ne/playlist.m3u8

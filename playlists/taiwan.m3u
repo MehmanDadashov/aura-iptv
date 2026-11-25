@@ -1,0 +1,63 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Taiwan",AXN Asia Taiwan (1080p) (Taiwan)
+http://125.227.210.55:4050/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hkwcBM9.png" group-title="Taiwan",Beautiful Life TV (Taiwan)
+https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bPoPAbR.png" group-title="Taiwan",CGNTV Chinese (1080p) (Taiwan)
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tqsKObw.png" group-title="Taiwan",CTi Variety (720p) (Taiwan)
+http://23.237.10.66:16372
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="Taiwan",CTS (1080p) (Taiwan)
+rtmp://59.124.75.138:1935/sat/tv111
+#EXTINF:-1 tvg-logo="https://i.imgur.com/V1EVtRm.png" group-title="Taiwan",CTS News [Geo-blocked] (Taiwan)
+http://seb.sason.top/sc/hsxw_fhd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="Taiwan",DaAi 1 (720p) (Taiwan)
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="Taiwan",DaAi 2 (1080p) (Taiwan)
+http://nmk.ioapk.com:5050/4gtv-live106/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pFIMLsA.png" group-title="Taiwan",Dali TV (720p) (Taiwan)
+http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/foLICwL.png" group-title="Taiwan",Discovery Asia Taiwan (1080p) (Taiwan)
+http://125.227.210.55:1004/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uFDkOhV.png" group-title="Taiwan",EBC Financial News (1080p) [Not 24/7] (Taiwan)
+http://seb.sason.top/sc/dscjxw_fhd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oUhYdea.png" group-title="Taiwan",EBC Foreign Movie (Taiwan)
+http://111.59.139.85:11888/tsfile/live/1217_1.m3u8?key=txiptv
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QFZs80p.png" group-title="Taiwan",EBC News (1080p) [Not 24/7] (Taiwan)
+http://seb.sason.top/sc/dsxw_fhd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/q8ahtbT.png" group-title="Taiwan",FTV (Taiwan) (720p) [Not 24/7] (Taiwan)
+http://seb.sason.top/ptv/ftv.php?id=ms
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HBT2o0I.png" group-title="Taiwan",FTV One (720p) [Not 24/7] (Taiwan)
+http://seb.sason.top/ptv/ftv.php?id=dy
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YxFRoft.png" group-title="Taiwan",Good 2 (720p) (Taiwan)
+https://live.streamingfast.net/osmflivech2.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/k28Kc3o.png" group-title="Taiwan",Good TV (Taiwan) (720p) [Not 24/7] (Taiwan)
+https://live.streamingfast.net/osmflivech1.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1CdGSbU.png" group-title="Taiwan",Hakka TV (Taiwan)
+https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/HBO_Asia.png/960px-HBO_Asia.png" group-title="Taiwan",HBO Asia Taiwan (1080p) (Taiwan)
+http://125.227.210.55:1003/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vmk4F9u.png" group-title="Taiwan",Indigenous TV (720p) (Taiwan)
+http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://m.momoshop.com.tw/img/message.png" group-title="Taiwan",MOMO TV (1080p) (Taiwan)
+http://nmk.ioapk.com:5050/4gtv-live107/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iyFXcDy.png" group-title="Taiwan",NTD TV Asia-Pacific (Taiwan)
+https://live.ntdtv.com/aplive200/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/I6sVDDt.png" group-title="Taiwan",PTS 3 (Taiwan)
+http://111.59.139.85:11888/tsfile/live/1222_1.m3u8?key=txiptv
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EGVbAvJ.png" group-title="Taiwan",SET News (1080p) [Geo-blocked] (Taiwan)
+http://seb.sason.top/sc/sllive_fhd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PTsFn9B.png" group-title="Taiwan",SJTV (Taiwan)
+http://111.59.139.85:11888/tsfile/live/1220_1.m3u8?key=txiptv
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kFMHayP.png" group-title="Taiwan",Supreme Master TV (720p) (Taiwan)
+https://lbs-us1.suprememastertv.com/720p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QqIdVqz.png" group-title="Taiwan",Taiwan Indigenous TV (720p) (Taiwan)
+https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/32/TTV_2nd_logo.svg/960px-TTV_2nd_logo.svg.png" group-title="Taiwan",TTV (720p) (Taiwan)
+http://162.19.247.76:22222/live/taishi/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/171lwfg.png" group-title="Taiwan",TVBS News [Geo-blocked] (Taiwan)
+http://seb.sason.top/sc/tvbsxw_fhd.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4S1rkhm.png" group-title="Taiwan",TVBS-Asia (1080p) (Taiwan)
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/s8tiTeb.png" group-title="Taiwan",WXTV (480p) (Taiwan)
+https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8

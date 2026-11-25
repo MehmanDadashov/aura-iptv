@@ -1,0 +1,31 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IBcMIcZ.png" group-title="Luxembourg",apart TV (1080p) (Luxembourg)
+https://2-fss-2.streamhoster.com/pl_124/206820-4338160-1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Luxembourg",Disney Channel (Germany) (576p) (Luxembourg)
+https://s6.hopslan.com/disneyX/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2dLYZsc.png" group-title="Luxembourg",Dudelange TV (720p) (Luxembourg)
+https://streamer20.multimedia.blue/Eltrona/DudelangeTV/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vCMQLlt.png" group-title="Luxembourg",eldo.TV (1080p) (Luxembourg)
+https://stream.eldo.lu/data/live/tele/eldotv/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DED8EXs.png" group-title="Luxembourg",LCI HD (1080p) (Luxembourg)
+http://151.80.18.177:86/LCI_HD/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/24ehonx.png" group-title="Luxembourg",Luxe TV (1080p) (Luxembourg)
+http://103.154.3.101:5001/live/1736.m3u8
+#EXTINF:-1 tvg-logo="https://globalradio.lu/wp-content/uploads/2025/03/Mask-Group-1.jpg#10" group-title="Luxembourg",Luxembourg Global Radio TV (1080p) (Luxembourg)
+https://stream.globalradio.lu/lgr/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Vdc1GYP.jpg" group-title="Luxembourg",MierschTV (Luxembourg)
+https://streamer20.multimedia.blue/Post/MerschTV_IPTV/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Luxembourg",Nickelodeon (Germany) (Luxembourg)
+https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LzHQoUv.png" group-title="Luxembourg",RTL Gold (Luxembourg) (1080p) (Luxembourg)
+https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fkW5Gbl.png" group-title="Luxembourg",RTL Tele Letzebuerg (1080p) (Luxembourg)
+https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qyc8LsE.png" group-title="Luxembourg",RTL Web Radio TV (1080p) (Luxembourg)
+https://rtlradio-streaming.rtl.lu/rtlradiowebtv/smil:rtlradiowebtv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7SmCtyy.png" group-title="Luxembourg",RTL Zwee (1080p) (Luxembourg)
+https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2CimAAN.png" group-title="Luxembourg",RTL-TVI (1080p) [Not 24/7] (Luxembourg)
+https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/O1c6wpt.png" group-title="Luxembourg",Today Radio (720p) (Luxembourg)
+https://stream.rtl.lu/data/live/tele/rtltodayradio/playlist.m3u8

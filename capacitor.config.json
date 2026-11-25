@@ -1,0 +1,13 @@
+{
+  "appId": "com.auraiptv.app",
+  "appName": "Aura IPTV",
+  "webDir": "public",
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "Chromecast": {
+      "receiverApplicationId": "CC1AD845"
+    }
+  }
+}

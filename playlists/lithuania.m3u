@@ -1,0 +1,57 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sZUIhGc.png" group-title="Lithuania",2TV (1080p) (Lithuania)
+https://lnk5511.bstrm.net/live/687e3ff1679c8d4d68fab6c5/hd/manifest.mpd
+#EXTINF:-1 tvg-logo="https://i.imgur.com/35tm57M.png" group-title="Lithuania",Balticum TV (576p) (Lithuania)
+http://stream.mcquack.net/376/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AeplGsP.png" group-title="Lithuania",BTV (Lithuania) (576p) (Lithuania)
+http://stream.mcquack.net/35/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IFoHP5M.png" group-title="Lithuania",Delfi TV (Lithuania)
+https://s1.dcdn.lt/live/televizija/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" group-title="Lithuania",FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked] (Lithuania)
+https://s70378.cdn.ngenix.net/filmbox/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0eZa0qh.png" group-title="Lithuania",Go3 Sport 1 (1080p) (Lithuania)
+http://stream.mcquack.net/416/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EjQtIpM.png" group-title="Lithuania",Info TV (1080p) (Lithuania)
+https://lnk5511.bstrm.net/live/687e3fd2679c8d4d68fab65b/hd/manifest.mpd
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qJSvxE2.png" group-title="Lithuania",KidZone Max SD (1080p) [Geo-blocked] (Lithuania)
+https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560706/index.mpd
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5wpxVI0.png" group-title="Lithuania",Lietuvos Rytas TV (1080p) (Lithuania)
+https://live.lietuvosryto.tv/live/hls/eteris.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/arCZ56g.png" group-title="Lithuania",LNK (1080p) (Lithuania)
+http://stream.mcquack.net/30/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Fa8Vhu0.png" group-title="Lithuania",LRT Klasika (1080p) (Lithuania)
+https://stream-live.lrt.lt/klasika/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LRT_Lituanica_Logo_2022.svg/960px-LRT_Lituanica_Logo_2022.svg.png" group-title="Lithuania",LRT Lituanica (1080p) [Geo-blocked] (Lithuania)
+https://stream-live.lrt.lt/lituanica/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oLuZTMH.png" group-title="Lithuania",LRT Opus (1080p) (Lithuania)
+https://stream-live.lrt.lt/opus/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/LRT_Plius_Logo_2022.svg/960px-LRT_Plius_Logo_2022.svg.png" group-title="Lithuania",LRT Plius (1080p) (Lithuania)
+http://stream.mcquack.net/353/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gYoaqju.png" group-title="Lithuania",LRT Radijas (1080p) (Lithuania)
+https://stream-live.lrt.lt/radijas/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FL2ZuGC.png" group-title="Lithuania",LRT TV (1080p) (Lithuania)
+http://stream.mcquack.net/31/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gb4NmNHT/M1-2025.png" group-title="Lithuania",M-1 (480p) (Lithuania)
+https://m-1.data.lt/m-1/smil:m-1.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://web02.antik.sk/assets/img/channels/5c4e6aadc3255df82fedf3221570cdb5.svg" group-title="Lithuania",OTV (Estonia) (Lithuania)
+http://88.212.15.17/live/otv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GOlQbfC.png" group-title="Lithuania",Power Hit Radio (576p) (Lithuania)
+https://cdnlb.tvplayhome.lt/live/eds/PWR_LTU_Live/GO3_LIVE_HLS/PWR_LTU_Live.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZpUNou4.png" group-title="Lithuania",RTG int. (Lithuania)
+http://213.91.179.28:8000/play/a0bw
+#EXTINF:-1 tvg-logo="https://i.imgur.com/aBY7QK4.png" group-title="Lithuania",Sport 1 Baltic (1080p) (Lithuania)
+http://stream.mcquack.net/461/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KLWDcFy.png" group-title="Lithuania",TV1 (Lithuania) (1080p) (Lithuania)
+https://lnk5511.bstrm.net/live/687e3fa8679c8d4d68fab5dd/hd/manifest.mpd
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7nipq0y.png" group-title="Lithuania",TV3 (Lithuania) (1080p) (Lithuania)
+http://stream.mcquack.net/29/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oC0jiFW.png" group-title="Lithuania",TV6 (Lithuania) (576p) (Lithuania)
+http://stream.mcquack.net/375/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9g3wknl.png" group-title="Lithuania",TV8 (Lithuania) (576p) (Lithuania)
+http://stream.mcquack.net/374/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HwsNIDK.png" group-title="Lithuania",Viasat Kino Action (576p) (Lithuania)
+http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qVYt8kP.png" group-title="Lithuania",Viasat Kino Comedy (Lithuania)
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ%3D%3D&master=249
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GPiE2Rb.png" group-title="Lithuania",Viasat Kino World (Lithuania)
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ%3D%3D&master=102

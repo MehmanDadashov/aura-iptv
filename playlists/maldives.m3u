@@ -1,0 +1,23 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lR5jUSU.jpeg" group-title="Maldives",Channel 13 (Maldives) (Maldives)
+https://sunplay-cdn.bitratelabs.com/live/local-channel-fhd/ch13-28754fda0a7f338e8fccfe7206ab9be8_1080p/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png" group-title="Maldives",Disney International HD (576p) (Maldives)
+http://103.151.60.162:2122/play/a018/index.m3u8?hls
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Zl2FmFC.png" group-title="Maldives",Maldives TV (720p) (Maldives)
+https://lana.psm.mv/live/mtv.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/21tpl5b.png" group-title="Maldives",MMTV (1080p) (Maldives)
+https://sendlive.online/hls/mmtv.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Adhr5xq.png" group-title="Maldives",Munnaaru (Maldives)
+https://customer-ujex1meek7koqd9x.cloudflarestream.com/6a46f90ca384c7419efdbef3ff1892a9/manifest/video.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jnXpcwV.png" group-title="Maldives",NTV (Maldives) (Maldives)
+https://sunplay-cdn.bitratelabs.com/live/local-channel/ntv-e3d4300b49c8c901e9339174215d7580/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mGuBbPv.png" group-title="Maldives",PSM News (Maldives)
+https://customer-ujex1meek7koqd9x.cloudflarestream.com/21262545317dadfa20dab4f9bd37c7c2/manifest/video.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QxdkiCZ.png" group-title="Maldives",Raajje TV (Maldives)
+https://raajjetv.yarr-myn.workers.dev/RaajjeTv.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1c7rFKC.png" group-title="Maldives",TV Maldives (Maldives)
+https://customer-ujex1meek7koqd9x.cloudflarestream.com/9e93379c0d46ee588b99263d95bd9c42/manifest/video.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6bY9Umo.png" group-title="Maldives",VTV (Maldives) (Maldives)
+https://sunplay-cdn.bitratelabs.com/live/local-channel/vtv-7a0f24809c234ea78d972b1f336ac1b9/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HARIGQl.png" group-title="Maldives",YES (Maldives)
+https://customer-ujex1meek7koqd9x.cloudflarestream.com/4f0b316cdb0fbb7f8ca93860ed11d38b/manifest/video.m3u8

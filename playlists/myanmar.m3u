@@ -1,0 +1,37 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4EHL2mH.png" group-title="Myanmar",5 Plus (720p) (Myanmar)
+https://mmtvs.exliatycl.online/5plus/stream.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/Channel_9_Myanmar_Logo.jpg" group-title="Myanmar",Channel 9 (Myanmar) (720p) (Myanmar)
+https://mmtvs.exliatycl.online/channel9/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6PqxuhF.png" group-title="Myanmar",Channel K (720p) (Myanmar)
+https://mmtvs.exliatycl.online/channelk/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VdezHOv.png" group-title="Myanmar",DVB TV (720p) [Geo-blocked] (Myanmar)
+https://live-stream.dvb.no/hls/stream_src/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MM5evnD.png" group-title="Myanmar",Fortune TV (720p) (Myanmar)
+http://103.215.194.93:8282/hls/fortunetv/vmix.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Gffq8ks.png" group-title="Myanmar",Hluttaw S & D (Myanmar)
+https://mrtvott.com/cache/MRTV-HLUTTAW/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6PcdTZ2.png" group-title="Myanmar",M Entertainment Channel (720p) (Myanmar)
+https://mmtvs.exliatycl.online/mchannel/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uyv7oJH.png" group-title="Myanmar",MRTV (Myanmar)
+https://mrtvott.com/cache/MRTV-HD/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/c9q6oT0.png" group-title="Myanmar",MRTV Entertainment (Myanmar)
+https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/f4PWvrW.jpg" group-title="Myanmar",MRTV Farmer (Myanmar)
+https://mrtvott.com/cache/MRTV-FARMER/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5eK8Bc4.png" group-title="Myanmar",MRTV News (Myanmar)
+https://mrtvott.com/cache/MRTV-NEWS-HD/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5aLFslk.jpg" group-title="Myanmar",MRTV NRC (Myanmar)
+https://mrtvott.com/cache/MRTV-NRC-HD/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cFTR4kC.png" group-title="Myanmar",MRTV Sports [Not 24/7] (Myanmar)
+https://mrtvott.com/cache/MRTV-SPORT/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zyTQG9F.png" group-title="Myanmar",MWD (720p) [Not 24/7] (Myanmar)
+http://203.81.84.130/hls/mwd/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4XV7cjU.png" group-title="Myanmar",MWD Documentary [Geo-blocked] (Myanmar)
+http://203.81.84.130/hls/mwd_document/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5KRsqeF.png" group-title="Myanmar",MWD Movies [Not 24/7] (Myanmar)
+http://203.81.84.130/hls/mwd_movie/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wb3Ku8X.png" group-title="Myanmar",MWD Variety (720p) [Not 24/7] (Myanmar)
+http://203.81.84.130/hls/mwd_variety/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/skAiUxg.png" group-title="Myanmar",RTM ASEAN (Myanmar)
+https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/chunklist_b2596000_slENG.m3u8
