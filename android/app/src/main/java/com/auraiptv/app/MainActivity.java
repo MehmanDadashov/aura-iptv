@@ -2,6 +2,7 @@ package com.auraiptv.app;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -33,6 +34,9 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.ump.ConsentInformation;
+import com.google.android.ump.ConsentRequestParameters;
+import com.google.android.ump.UserMessagingPlatform;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.LoadAdError;
@@ -93,19 +97,40 @@ public class MainActivity extends BridgeActivity {
             });
         }
 
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+        bootAds(this);
+    }
+
+    /**
+     * UMP-согласие (GDPR) → форма при необходимости → инициализация AdMob → загрузка
+     * баннера/интерстишла/rewarded. Без показа формы в ЕС SDK не отдаёт fill.
+     */
+    private static void bootAds(Activity activity) {
+        ConsentRequestParameters params = new ConsentRequestParameters.Builder()
+                .setTagForUnderAgeOfConsent(false)
+                .build();
+        ConsentInformation ci = UserMessagingPlatform.getConsentInformation(activity);
+        ci.requestConsentInfoUpdate(activity, params,
+                () -> UserMessagingPlatform.loadAndShowConsentFormIfRequired(activity, formError -> initAds(activity)),
+                err -> {
+                    Log.w(TAG, "consent update failed: " + err.getMessage());
+                    initAds(activity);
+                });
+    }
+
+    private static void initAds(Activity activity) {
+        MainActivity a = (MainActivity) activity;
+        MobileAds.initialize(activity, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus status) {
                 Log.d(TAG, "AdMob initialized");
-                if (!isAdFree()) {
-                    loadBannerAd();
-                    loadInterstitialAd();
-                    loadRewardedAd();
+                if (!a.isAdFree()) {
+                    a.loadBannerAd();
+                    a.loadInterstitialAd();
+                    a.loadRewardedAd();
                 }
             }
         });
-
-        setupBannerAd();
+        a.setupBannerAd();
     }
 
     private void setupBannerAd() {
