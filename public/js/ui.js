@@ -786,12 +786,25 @@
 
   function togglePip() {
     var v = video();
+    var native = window.Android;
+    if (native && typeof native.isPipSupported === 'function' && native.isPipSupported()) {
+      if (document.pictureInPictureElement) {
+        document.exitPictureInPicture().catch(function () {});
+      } else if (document.pictureInPictureEnabled && v.requestPictureInPicture) {
+        v.requestPictureInPicture().catch(function () {});
+      } else if (native.enterPip) {
+        native.enterPip();
+      }
+      return;
+    }
     if (document.pictureInPictureElement) {
       document.exitPictureInPicture().catch(function () {});
     } else if (document.pictureInPictureEnabled && v.requestPictureInPicture) {
       v.requestPictureInPicture().catch(function () {});
     } else if (v.webkitSupportsPresentationMode && v.webkitSetPresentationMode) {
       v.webkitSetPresentationMode(v.webkitPresentationMode === 'picture-in-picture' ? 'inline' : 'picture-in-picture');
+    } else {
+      toast(t('pip.unsupported', 'Picture-in-picture is not supported on this device'));
     }
   }
 
@@ -868,13 +881,80 @@
   }
 
   // ---------- share ----------
+  var SHARE_STATE = { url: '', text: '' };
+
+  function drawShareQR(canvas, text) {
+    try {
+      var qr = qrcode(0, 'M');
+      qr.addData(text);
+      qr.make();
+      var n = qr.getModuleCount();
+      var pad = 10;
+      var px = (canvas.width - pad * 2) / n;
+      var ctx = canvas.getContext('2d');
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#0d0d16';
+      for (var y = 0; y < n; y++) {
+        for (var x = 0; x < n; x++) {
+          if (qr.isDark(y, x)) ctx.fillRect(pad + x * px, pad + y * px, px, px);
+        }
+      }
+    } catch (e) { /* QR lib missing — sheet still works */ }
+  }
+
   function shareChannel() {
-    var text = currentChannel ? currentChannel.name + ' — AURA IPTV' : 'AURA IPTV';
-    var data = { title: 'AURA IPTV', text: t('share.text'), url: location.origin + '/' };
-    if (navigator.share) {
-      navigator.share(data).catch(function () {});
-    } else if (navigator.clipboard) {
-      navigator.clipboard.writeText(data.text + '\n' + data.url).then(function () { toast(t('share.copied')); }).catch(function () {});
+    var url = location.origin + '/';
+    var name = currentChannel ? currentChannel.name : 'AURA IPTV';
+    var text = (currentChannel ? name + ' — ' : '') + t('share.text');
+    SHARE_STATE.url = url;
+    SHARE_STATE.text = text;
+
+    var metaName = $('shareMetaName');
+    var metaSub = $('shareMetaSub');
+    var metaLink = $('shareMetaLink');
+    if (metaName) metaName.textContent = name;
+    if (metaSub) {
+      metaSub.innerHTML = currentChannel
+        ? flagHTML(currentChannel.country) + ' ' + esc(catName(currentChannel.group) || '')
+        : esc(t('share.meta'));
+    }
+    if (metaLink) metaLink.textContent = url;
+
+    drawShareQR($('shareQr'), url);
+
+    var modal = $('shareModal');
+    if (modal) modal.classList.add('show');
+  }
+
+  function closeShare() {
+    var modal = $('shareModal');
+    if (modal) modal.classList.remove('show');
+  }
+
+  function shareVia(target) {
+    var u = encodeURIComponent(SHARE_STATE.url);
+    var t = encodeURIComponent(SHARE_STATE.text);
+    var href = null;
+    if (target === 'whatsapp') href = 'https://wa.me/?text=' + t + '%20' + u;
+    else if (target === 'telegram') href = 'https://t.me/share/url?url=' + u + '&text=' + t;
+    else if (target === 'twitter') href = 'https://twitter.com/intent/tweet?text=' + t + '&url=' + u;
+    else if (target === 'facebook') href = 'https://www.facebook.com/sharer/sharer.php?u=' + u;
+    else if (target === 'vk') href = 'https://vk.com/share.php?url=' + u + '&title=' + t;
+    else if (target === 'email') href = 'mailto:?subject=' + encodeURIComponent('AURA IPTV') + '&body=' + t + '%20' + u;
+    if (href) { window.open(href, '_blank', 'noopener'); return; }
+    if (target === 'copy') {
+      var done = function () { toast(t('share.copied')); };
+      if (navigator.clipboard) navigator.clipboard.writeText(SHARE_STATE.text + '\n' + SHARE_STATE.url).then(done, function () {});
+      else done();
+      return;
+    }
+    if (target === 'native') {
+      if (navigator.share) {
+        navigator.share({ title: 'AURA IPTV', text: SHARE_STATE.text, url: SHARE_STATE.url }).catch(function () {});
+      } else if (navigator.clipboard) {
+        navigator.clipboard.writeText(SHARE_STATE.text + '\n' + SHARE_STATE.url).then(function () { toast(t('share.copied')); }, function () {});
+      }
     }
   }
 
@@ -1213,6 +1293,19 @@
     $('pPip').addEventListener('click', togglePip);
     $('pCast').addEventListener('click', castStream);
     $('pShare').addEventListener('click', shareChannel);
+
+    // share sheet
+    var shareModal = $('shareModal');
+    if (shareModal) {
+      $('shareCloseBtn').addEventListener('click', closeShare);
+      shareModal.addEventListener('click', function (e) {
+        if (e.target === shareModal) closeShare();
+      });
+      $('shareTargets').addEventListener('click', function (e) {
+        var btn = e.target.closest('[data-share]');
+        if (btn) shareVia(btn.getAttribute('data-share'));
+      });
+    }
     $('pFav').addEventListener('click', function () { if (currentChannel) toggleFav(currentChannel.id); });
     $('pList').addEventListener('click', function () { toggleDrawer(); });
     $('drawerClose').addEventListener('click', function () { toggleDrawer(false); });
@@ -1289,6 +1382,8 @@
       } else if (!typing && e.key === '/') {
         e.preventDefault();
         $('searchInput').focus();
+      } else if (e.key === 'Escape' && $('shareModal').classList.contains('show')) {
+        closeShare();
       }
     });
 
@@ -1320,7 +1415,8 @@
     bindEvents();
     detectProxy();
     loadData();
-    if (!('pictureInPictureEnabled' in document) && !video().webkitSupportsPresentationMode) {
+    var pipNative = window.Android && typeof window.Android.isPipSupported === 'function' && window.Android.isPipSupported();
+    if (!pipNative && !('pictureInPictureEnabled' in document) && !video().webkitSupportsPresentationMode) {
       $('pPip').style.display = 'none';
     }
   });

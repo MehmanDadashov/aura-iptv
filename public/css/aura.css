@@ -668,3 +668,18 @@ body.data-saver .card-logo img, body.data-saver .drawer-item .d-logo-wrap img { 
 ::-webkit-scrollbar { width: 10px; height: 8px; }
 ::-webkit-scrollbar-thumb { background: var(--surface-3); border-radius: 99px; }
 ::-webkit-scrollbar-track { background: transparent; }
+/* ---------- share sheet ---------- */
+.share-meta { display: flex; flex-direction: column; gap: 3px; padding: 12px 14px; background: var(--bg-1, rgba(255,255,255,.04)); border: 1px solid var(--border); border-radius: 12px; }
+.share-meta-name { font-weight: 650; font-size: 15px; }
+.share-meta-sub { font-size: 12.5px; color: var(--text3, rgba(255,255,255,.55)); display: flex; align-items: center; gap: 6px; }
+.share-meta-link { font-size: 11.5px; color: var(--text3, rgba(255,255,255,.45)); word-break: break-all; }
+.share-body { display: flex; gap: 16px; align-items: flex-start; }
+.share-qr { display: flex; flex-direction: column; align-items: center; gap: 6px; flex: 0 0 auto; }
+.share-qr canvas { width: 168px; height: 168px; border-radius: 12px; border: 1px solid var(--border); background: #fff; }
+.share-qr-cap { font-size: 11px; color: var(--text3, rgba(255,255,255,.5)); }
+.share-targets { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; flex: 1; }
+.share-t { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-1, rgba(255,255,255,.04)); color: var(--text1, #fff); font-size: 13px; cursor: pointer; min-width: 0; }
+.share-t svg { width: 18px; height: 18px; flex: 0 0 auto; }
+.share-t span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.share-t:active { transform: scale(.97); }
+@media (max-width: 420px) { .share-body { flex-direction: column; align-items: center; } .share-targets { width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); } }

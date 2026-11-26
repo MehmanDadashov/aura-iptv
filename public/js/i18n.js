@@ -78,7 +78,9 @@
     'cat.lifestyle': 'Lifestyle', 'cat.classic': 'Classic', 'cat.shop': 'Shopping', 'cat.business': 'Business',
     'cat.outdoor': 'Outdoor', 'cat.cooking': 'Cooking', 'cat.family': 'Family', 'cat.travel': 'Travel',
     'cat.auto': 'Auto', 'cat.weather': 'Weather', 'cat.science': 'Science', 'cat.relax': 'Relax',
-    'cat.public': 'Public', 'cat.interactive': 'Interactive'
+    'cat.public': 'Public', 'cat.interactive': 'Interactive',
+    'share.title': 'Share', 'share.meta': 'Channel info', 'share.qr': 'QR code', 'share.via': 'Share via', 'share.more': 'More…',
+    'pip.unsupported': 'Picture-in-picture is not supported on this device'
   };
 
   D.ru = {
@@ -155,7 +157,9 @@
     'cat.lifestyle': 'Стиль жизни', 'cat.classic': 'Классика', 'cat.shop': 'Магазины', 'cat.business': 'Бизнес',
     'cat.outdoor': 'Природа', 'cat.cooking': 'Кулинария', 'cat.family': 'Семейные', 'cat.travel': 'Путешествия',
     'cat.auto': 'Авто', 'cat.weather': 'Погода', 'cat.science': 'Наука', 'cat.relax': 'Релакс',
-    'cat.public': 'Общественные', 'cat.interactive': 'Интерактив'
+    'cat.public': 'Общественные', 'cat.interactive': 'Интерактив',
+    'share.title': 'Поделиться', 'share.meta': 'Информация о канале', 'share.qr': 'QR-код', 'share.via': 'Поделиться через', 'share.more': 'Ещё…',
+    'pip.unsupported': 'Режим «Картинка в картинке» не поддерживается на этом устройстве'
   };
 
   D.sv = {
@@ -207,7 +211,9 @@
     'cat.lifestyle': 'Livsstil', 'cat.classic': 'Klassiker', 'cat.shop': 'Shopping', 'cat.business': 'Näringsliv',
     'cat.outdoor': 'Friluftsliv', 'cat.cooking': 'Matlagning', 'cat.family': 'Familj', 'cat.travel': 'Resor',
     'cat.auto': 'Bilar', 'cat.weather': 'Väder', 'cat.science': 'Vetenskap', 'cat.relax': 'Avkoppling',
-    'cat.public': 'Public service', 'cat.interactive': 'Interaktivt'
+    'cat.public': 'Public service', 'cat.interactive': 'Interaktivt',
+    'share.title': 'Dela', 'share.meta': 'Kanalinfo', 'share.qr': 'QR-kod', 'share.via': 'Dela via', 'share.more': 'Mer…',
+    'pip.unsupported': 'Bild-i-bild stöds inte på den här enheten'
   };
 
   D.uk = {
@@ -259,7 +265,9 @@
     'cat.lifestyle': 'Стиль життя', 'cat.classic': 'Класика', 'cat.shop': 'Магазини', 'cat.business': 'Бізнес',
     'cat.outdoor': 'Природа', 'cat.cooking': 'Кулінарія', 'cat.family': 'Сімейні', 'cat.travel': 'Подорожі',
     'cat.auto': 'Авто', 'cat.weather': 'Погода', 'cat.science': 'Наука', 'cat.relax': 'Релакс',
-    'cat.public': 'Суспільні', 'cat.interactive': 'Інтерактив'
+    'cat.public': 'Суспільні', 'cat.interactive': 'Інтерактив',
+    'share.title': 'Поділитися', 'share.meta': 'Інформація про канал', 'share.qr': 'QR-код', 'share.via': 'Поділитися через', 'share.more': 'Більше…',
+    'pip.unsupported': 'Режим «Зображення в зображенні» не підтримується на цьому пристрої'
   };
 
   D.es = {
@@ -311,7 +319,9 @@
     'cat.lifestyle': 'Estilo de vida', 'cat.classic': 'Clásicos', 'cat.shop': 'Compras', 'cat.business': 'Negocios',
     'cat.outdoor': 'Aire libre', 'cat.cooking': 'Cocina', 'cat.family': 'Familia', 'cat.travel': 'Viajes',
     'cat.auto': 'Motor', 'cat.weather': 'Clima', 'cat.science': 'Ciencia', 'cat.relax': 'Relax',
-    'cat.public': 'Públicos', 'cat.interactive': 'Interactivo'
+    'cat.public': 'Públicos', 'cat.interactive': 'Interactivo',
+    'share.title': 'Compartir', 'share.meta': 'Información del canal', 'share.qr': 'Código QR', 'share.via': 'Compartir vía', 'share.more': 'Más…',
+    'pip.unsupported': 'Imagen en imagen no compatible con este dispositivo'
   };
 
   D.de = {
@@ -363,7 +373,9 @@
     'cat.lifestyle': 'Lifestyle', 'cat.classic': 'Klassiker', 'cat.shop': 'Shopping', 'cat.business': 'Wirtschaft',
     'cat.outdoor': 'Outdoor', 'cat.cooking': 'Kochen', 'cat.family': 'Familie', 'cat.travel': 'Reisen',
     'cat.auto': 'Auto', 'cat.weather': 'Wetter', 'cat.science': 'Wissenschaft', 'cat.relax': 'Entspannung',
-    'cat.public': 'Öffentlich', 'cat.interactive': 'Interaktiv'
+    'cat.public': 'Öffentlich', 'cat.interactive': 'Interaktiv',
+    'share.title': 'Teilen', 'share.meta': 'Kanalinfo', 'share.qr': 'QR-Code', 'share.via': 'Teilen über', 'share.more': 'Mehr…',
+    'pip.unsupported': 'Bild-in-Bild wird auf diesem Gerät nicht unterstützt'
   };
 
   D.fr = {
@@ -415,7 +427,9 @@
     'cat.lifestyle': 'Art de vivre', 'cat.classic': 'Classiques', 'cat.shop': 'Téléachat', 'cat.business': 'Économie',
     'cat.outdoor': 'Plein air', 'cat.cooking': 'Cuisine', 'cat.family': 'Famille', 'cat.travel': 'Voyage',
     'cat.auto': 'Auto', 'cat.weather': 'Météo', 'cat.science': 'Science', 'cat.relax': 'Détente',
-    'cat.public': 'Public', 'cat.interactive': 'Interactif'
+    'cat.public': 'Public', 'cat.interactive': 'Interactif',
+    'share.title': 'Partager', 'share.meta': 'Infos chaîne', 'share.qr': 'Code QR', 'share.via': 'Partager via', 'share.more': 'Plus…',
+    'pip.unsupported': 'Image dans l’image non prise en charge sur cet appareil'
   };
 
   D.it = {
@@ -467,7 +481,9 @@
     'cat.lifestyle': 'Lifestyle', 'cat.classic': 'Classici', 'cat.shop': 'Shopping', 'cat.business': 'Economia',
     'cat.outdoor': 'Outdoor', 'cat.cooking': 'Cucina', 'cat.family': 'Famiglia', 'cat.travel': 'Viaggi',
     'cat.auto': 'Motori', 'cat.weather': 'Meteo', 'cat.science': 'Scienza', 'cat.relax': 'Relax',
-    'cat.public': 'Pubblici', 'cat.interactive': 'Interattivo'
+    'cat.public': 'Pubblici', 'cat.interactive': 'Interattivo',
+    'share.title': 'Condividi', 'share.meta': 'Info canale', 'share.qr': 'Codice QR', 'share.via': 'Condividi via', 'share.more': 'Altro…',
+    'pip.unsupported': 'Picture-in-picture non supportato su questo dispositivo'
   };
 
   D.pt = {
@@ -519,7 +535,9 @@
     'cat.lifestyle': 'Estilo de vida', 'cat.classic': 'Clássicos', 'cat.shop': 'Compras', 'cat.business': 'Negócios',
     'cat.outdoor': 'Ar livre', 'cat.cooking': 'Culinária', 'cat.family': 'Família', 'cat.travel': 'Viagem',
     'cat.auto': 'Automotivo', 'cat.weather': 'Clima', 'cat.science': 'Ciência', 'cat.relax': 'Relax',
-    'cat.public': 'Públicos', 'cat.interactive': 'Interativo'
+    'cat.public': 'Públicos', 'cat.interactive': 'Interativo',
+    'share.title': 'Compartilhar', 'share.meta': 'Info do canal', 'share.qr': 'Código QR', 'share.via': 'Compartilhar via', 'share.more': 'Mais…',
+    'pip.unsupported': 'Picture-in-picture não suportado neste dispositivo'
   };
 
   D.pl = {
@@ -571,7 +589,9 @@
     'cat.lifestyle': 'Lifestyle', 'cat.classic': 'Klasyka', 'cat.shop': 'Zakupy', 'cat.business': 'Biznes',
     'cat.outdoor': 'Outdoor', 'cat.cooking': 'Kuchnia', 'cat.family': 'Rodzina', 'cat.travel': 'Podróże',
     'cat.auto': 'Motoryzacja', 'cat.weather': 'Pogoda', 'cat.science': 'Nauka', 'cat.relax': 'Relaks',
-    'cat.public': 'Publiczne', 'cat.interactive': 'Interaktywne'
+    'cat.public': 'Publiczne', 'cat.interactive': 'Interaktywne',
+    'share.title': 'Udostępnij', 'share.meta': 'Info kanale', 'share.qr': 'Kod QR', 'share.via': 'Udostępnij przez', 'share.more': 'Więcej…',
+    'pip.unsupported': 'Tryb obrazu w obrazie nie jest obsługiwany na tym urządzeniu'
   };
 
   D.tr = {
@@ -623,7 +643,9 @@
     'cat.lifestyle': 'Yaşam', 'cat.classic': 'Klasik', 'cat.shop': 'Alışveriş', 'cat.business': 'İş dünyası',
     'cat.outdoor': 'Doğa', 'cat.cooking': 'Yemek', 'cat.family': 'Aile', 'cat.travel': 'Seyahat',
     'cat.auto': 'Otomobil', 'cat.weather': 'Hava durumu', 'cat.science': 'Bilim', 'cat.relax': 'Rahatlama',
-    'cat.public': 'Kamu', 'cat.interactive': 'İnteraktif'
+    'cat.public': 'Kamu', 'cat.interactive': 'İnteraktif',
+    'share.title': 'Paylaş', 'share.meta': 'Kanal bilgisi', 'share.qr': 'QR kod', 'share.via': 'Şununla paylaş', 'share.more': 'Daha…',
+    'pip.unsupported': 'Bu cihazda resim içinde resim desteklenmiyor'
   };
 
   D.ar = {
@@ -675,7 +697,9 @@
     'cat.lifestyle': 'أسلوب حياة', 'cat.classic': 'كلاسيكيات', 'cat.shop': 'تسوق', 'cat.business': 'أعمال',
     'cat.outdoor': 'هواء طلق', 'cat.cooking': 'طبخ', 'cat.family': 'عائلة', 'cat.travel': 'سفر',
     'cat.auto': 'سيارات', 'cat.weather': 'طقس', 'cat.science': 'علوم', 'cat.relax': 'استرخاء',
-    'cat.public': 'عامة', 'cat.interactive': 'تفاعلي'
+    'cat.public': 'عامة', 'cat.interactive': 'تفاعلي',
+    'share.title': 'مشاركة', 'share.meta': 'معلومات القناة', 'share.qr': 'رمز QR', 'share.via': 'المشاركة عبر', 'share.more': 'المزيد…',
+    'pip.unsupported': 'الصورة داخل الصورة غير مدعومة على هذا الجهاز'
   };
 
   D.hi = {
@@ -727,7 +751,9 @@
     'cat.lifestyle': 'लाइफ़स्टाइल', 'cat.classic': 'क्लासिक', 'cat.shop': 'शॉपिंग', 'cat.business': 'व्यापार',
     'cat.outdoor': 'आउटडोर', 'cat.cooking': 'खाना', 'cat.family': 'परिवार', 'cat.travel': 'यात्रा',
     'cat.auto': 'ऑटो', 'cat.weather': 'मौसम', 'cat.science': 'विज्ञान', 'cat.relax': 'रिलैक्स',
-    'cat.public': 'सार्वजनिक', 'cat.interactive': 'इंटरैक्टिव'
+    'cat.public': 'सार्वजनिक', 'cat.interactive': 'इंटरैक्टिव',
+    'share.title': 'साझा करें', 'share.meta': 'चैनल जानकारी', 'share.qr': 'QR कोड', 'share.via': 'इसके ज़रिए साझा करें', 'share.more': 'और…',
+    'pip.unsupported': 'इस डिवाइस पर पिक्चर-इन-पिक्चर समर्थित नहीं है'
   };
 
   D.zh = {
@@ -779,7 +805,9 @@
     'cat.lifestyle': '生活', 'cat.classic': '经典', 'cat.shop': '购物', 'cat.business': '财经',
     'cat.outdoor': '户外', 'cat.cooking': '美食', 'cat.family': '家庭', 'cat.travel': '旅游',
     'cat.auto': '汽车', 'cat.weather': '天气', 'cat.science': '科学', 'cat.relax': '放松',
-    'cat.public': '公共', 'cat.interactive': '互动'
+    'cat.public': '公共', 'cat.interactive': '互动',
+    'share.title': '分享', 'share.meta': '频道信息', 'share.qr': '二维码', 'share.via': '通过以下方式分享', 'share.more': '更多…',
+    'pip.unsupported': '此设备不支持画中画'
   };
 
   var LANGS = [

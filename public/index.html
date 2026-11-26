@@ -551,6 +551,36 @@
   </div>
 </div>
 
+<div class="modal" id="shareModal" role="dialog" aria-modal="true" aria-label="Share">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h2 data-i18n="share.title">Share</h2>
+      <button class="icon-btn" id="shareCloseBtn" aria-label="Close">✕</button>
+    </div>
+    <div class="share-meta" id="shareMeta">
+      <div class="share-meta-name" id="shareMetaName"></div>
+      <div class="share-meta-sub" id="shareMetaSub"></div>
+      <div class="share-meta-link" id="shareMetaLink"></div>
+    </div>
+    <div class="share-body">
+      <div class="share-qr">
+        <canvas id="shareQr" width="168" height="168" aria-label="QR"></canvas>
+        <span class="share-qr-cap" data-i18n="share.qr">QR code</span>
+      </div>
+      <div class="share-targets" id="shareTargets">
+        <button class="share-t" data-share="whatsapp" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm5.8 14.09c-.25.7-1.45 1.34-2 1.38-.53.05-1.2.07-3.2-.77-2.42-1.02-3.94-3.56-4.06-3.73-.12-.16-.95-1.26-.95-2.4s.6-1.7.82-1.94c.21-.24.46-.3.62-.3h.44c.14 0 .33-.05.5.38.19.48.65 1.66.7 1.78.06.12.09.26.02.42-.08.17-.15.27-.29.43-.14.16-.19.24-.28.4-.09.16-.02.32.13.53.15.2.66 1.09 1.42 1.77.98.87 1.8 1.15 2.06 1.28.26.13.41.12.56-.07.15-.2.65-.75.82-1.01.17-.26.35-.21.58-.13.24.09 1.5.71 1.76.84.26.13.43.19.5.3.06.12.06.68-.14 1.34z"/></svg><span>WhatsApp</span></button>
+        <button class="share-t" data-share="telegram" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.08 1.15 1.3l-2.44 11.28c-.16.78-.66.97-1.34.6l-3.7-2.74-1.7 1.65z"/></svg><span>Telegram</span></button>
+        <button class="share-t" data-share="twitter" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.05 8.06L23.2 22h-6.48l-5.08-6.65L5.8 22H2.7l7.55-8.63L1.8 2h6.65l4.6 6.05L18.9 2zm-1.13 18.13h1.8L7.2 3.8H5.27l12.5 16.33z"/></svg><span>X</span></button>
+        <button class="share-t" data-share="facebook" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.9h2.54V9.85c0-2.52 1.5-3.91 3.77-3.91 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.45 2.9h-2.33V22c4.78-.79 8.44-4.94 8.44-9.94z"/></svg><span>Facebook</span></button>
+        <button class="share-t" data-share="vk" aria-label="VK"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.79 17.5c-5.54 0-9.13-3.82-9.28-10.1h2.9c.09 4.34 2.32 6.18 3.88 6.56V7.4h2.87v3.75c1.55-.17 3.16-1.93 3.7-3.75h2.87c-.42 2.6-2.2 4.36-3.48 5.1 1.28.63 3.16 2.25 3.87 5h-3.17c-.58-1.8-2.03-3.2-3.79-3.4v3.4h-.37z"/></svg><span>VK</span></button>
+        <button class="share-t" data-share="email" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg><span>Email</span></button>
+        <button class="share-t" data-share="copy" aria-label="Copy link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span data-i18n="share.copied">Copy</span></button>
+        <button class="share-t" data-share="native" aria-label="More"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98m-.01-10.98-6.82 3.98"/></svg><span data-i18n="share.more">More…</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="toast" id="toast" role="status"></div>
 <noscript><div style="padding:40px;text-align:center">AURA IPTV requires JavaScript. / Для работы AURA IPTV нужен JavaScript.</div></noscript>
 
@@ -561,7 +591,8 @@
 <script src="/js/flags.js?v=2.2.0"></script>
 <script src="/js/i18n.js?v=2.3.0"></script>
 <script src="/js/analytics.js?v=2.2.0"></script>
-<script src="/js/ui.js?v=2.2.0"></script>
+<script src="/js/qrcodegen.min.js?v=1.0.0"></script>
+<script src="/js/ui.js?v=2.4.0"></script>
 <script src="/js/premium.js?v=2.2.0"></script>
 <script>
   if ('serviceWorker' in navigator) {

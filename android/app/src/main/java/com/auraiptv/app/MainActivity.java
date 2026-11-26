@@ -1,10 +1,13 @@
 package com.auraiptv.app;
 
+import android.app.PictureInPictureParams;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.app.Activity;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.Rational;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
@@ -355,9 +358,80 @@ public class MainActivity extends BridgeActivity {
         }
     }
 
+    // ------------------------------------------------------------ Picture-in-Picture
+
+    /** WebView не поддерживает веб-PiP API — режим включается нативно через активность. */
+    public boolean isPipSupported() {
+        return Build.VERSION.SDK_INT >= 26
+                && getPackageManager().hasSystemFeature("android.software.picture_in_picture");
+    }
+
+    public void enterPipNative() {
+        runOnUiThread(() -> {
+            if (Build.VERSION.SDK_INT < 26) return;
+            if (isInPictureInPictureMode()) return;
+            try {
+                Rational ratio = videoAspectRatio();
+                PictureInPictureParams.Builder b = new PictureInPictureParams.Builder()
+                        .setAspectRatio(ratio);
+                if (Build.VERSION.SDK_INT >= 31) {
+                    b.setAutoEnterEnabled(true);
+                    b.setSeamlessResizeEnabled(true);
+                }
+                enterPictureInPictureMode(b.build());
+            } catch (Exception e) {
+                Log.w(TAG, "enterPip failed: " + e.getMessage());
+            }
+        });
+    }
+
+    public void exitPipNative() {
+        runOnUiThread(() -> {
+            if (!isInPictureInPictureMode()) return;
+            // Стандартный способ вернуть PiP-активность в полный экран.
+            moveTaskToBack(false);
+        });
+    }
+
+    private Rational videoAspectRatio() {
+        int w = 16, h = 9;
+        WebView webView = getBridge() != null ? getBridge().getWebView() : null;
+        if (webView != null) {
+            int vw = webView.getWidth(), vh = webView.getHeight();
+            if (vw > 0 && vh > 0) { w = vw; h = vh; }
+        }
+        int gcd = gcd(w, h);
+        return new Rational(Math.max(1, w / gcd), Math.max(1, h / gcd));
+    }
+
+    private static int gcd(int a, int b) {
+        a = Math.abs(a); b = Math.abs(b);
+        while (b > 0) { int t = a % b; a = b; b = t; }
+        return Math.max(1, a);
+    }
+
+    @Override
+    public void onPictureInPictureModeChanged(boolean isInPictureInPictureMode) {
+        super.onPictureInPictureModeChanged(isInPictureInPictureMode);
+        WebView webView = getBridge() != null ? getBridge().getWebView() : null;
+        if (webView == null) return;
+        webView.post(() -> webView.evaluateJavascript(
+                "window.dispatchEvent(new CustomEvent('pip-mode',{detail:{active:" + isInPictureInPictureMode + "}}))",
+                null));
+    }
+
     // ------------------------------------------------------------ JS bridge
 
     private class AdsBridge {
+
+        @JavascriptInterface
+        public boolean isPipSupported() { return MainActivity.this.isPipSupported(); }
+
+        @JavascriptInterface
+        public void enterPip() { MainActivity.this.enterPipNative(); }
+
+        @JavascriptInterface
+        public void exitPip() { MainActivity.this.exitPipNative(); }
 
         @JavascriptInterface
         public void showInterstitialAd() {
