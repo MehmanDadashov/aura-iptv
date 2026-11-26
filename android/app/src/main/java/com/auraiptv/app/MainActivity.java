@@ -2,6 +2,7 @@ package com.auraiptv.app;
 
 import android.app.PictureInPictureParams;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.app.Activity;
 import android.os.Build;
@@ -158,6 +159,18 @@ public class MainActivity extends BridgeActivity {
         bannerAdView = new AdView(this);
         bannerAdView.setAdUnitId(getString(R.string.ad_unit_banner));
         bannerAdView.setAdSize(AdSize.BANNER);
+        bannerAdView.setAdListener(new com.google.android.gms.ads.AdListener() {
+            @Override
+            public void onAdFailedToLoad(LoadAdError error) {
+                Log.w(TAG, "banner failed: code=" + error.getCode() + " msg=" + error.getMessage());
+                notifyAdError("banner", error.getCode(), error.getMessage());
+            }
+            @Override
+            public void onAdLoaded() {
+                Log.d(TAG, "banner loaded");
+                notifyJs("banner-loaded", 0L);
+            }
+        });
         adContainer.addView(bannerAdView);
     }
 
@@ -424,6 +437,25 @@ public class MainActivity extends BridgeActivity {
 
     private class AdsBridge {
 
+        /** Системный выбор «куда отправить» (Android chooser). */
+        @JavascriptInterface
+        public void shareText(String title, String text, String url) {
+            runOnUiThread(() -> {
+                try {
+                    Intent send = new Intent(Intent.ACTION_SEND);
+                    send.setType("text/plain");
+                    send.putExtra(Intent.EXTRA_SUBJECT, title != null ? title : "AURA IPTV");
+                    send.putExtra(Intent.EXTRA_TITLE, title != null ? title : "AURA IPTV");
+                    send.putExtra(Intent.EXTRA_TEXT, (text != null ? text + "\n" : "") + url);
+                    Intent chooser = Intent.createChooser(send, title != null ? title : "AURA IPTV");
+                    chooser.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    startActivity(chooser);
+                } catch (Exception e) {
+                    Log.w(TAG, "shareText failed: " + e.getMessage());
+                }
+            });
+        }
+
         @JavascriptInterface
         public boolean isPipSupported() { return MainActivity.this.isPipSupported(); }
 
@@ -581,6 +613,16 @@ public class MainActivity extends BridgeActivity {
             hideBanner();
             notifyJs("onAdFreeGranted", until);
         });
+    }
+
+    /** Ошибка рекламы → тост в UI с кодом ошибки AdMob. */
+    private void notifyAdError(String where, int code, String msg) {
+        WebView webView = getBridge() != null ? getBridge().getWebView() : null;
+        if (webView == null) return;
+        String json = "{\"where\":\"" + where + "\",\"code\":" + code + ",\"msg\":\""
+                + (msg == null ? "" : msg.replace("\"", "'").replace("\n", " ")) + "\"}";
+        webView.post(() -> webView.evaluateJavascript(
+                "window.dispatchEvent(new CustomEvent('ad-error',{detail:" + json + "}))", null));
     }
 
     private void notifyJs(String event) {

@@ -80,7 +80,8 @@
     'cat.auto': 'Auto', 'cat.weather': 'Weather', 'cat.science': 'Science', 'cat.relax': 'Relax',
     'cat.public': 'Public', 'cat.interactive': 'Interactive',
     'share.title': 'Share', 'share.meta': 'Channel info', 'share.qr': 'QR code', 'share.via': 'Share via', 'share.more': 'More…',
-    'pip.unsupported': 'Picture-in-picture is not supported on this device'
+    'pip.unsupported': 'Picture-in-picture is not supported on this device',
+    'share.getapp': 'Download app'
   };
 
   D.ru = {
@@ -159,7 +160,8 @@
     'cat.auto': 'Авто', 'cat.weather': 'Погода', 'cat.science': 'Наука', 'cat.relax': 'Релакс',
     'cat.public': 'Общественные', 'cat.interactive': 'Интерактив',
     'share.title': 'Поделиться', 'share.meta': 'Информация о канале', 'share.qr': 'QR-код', 'share.via': 'Поделиться через', 'share.more': 'Ещё…',
-    'pip.unsupported': 'Режим «Картинка в картинке» не поддерживается на этом устройстве'
+    'pip.unsupported': 'Режим «Картинка в картинке» не поддерживается на этом устройстве',
+    'share.getapp': 'Скачать приложение'
   };
 
   D.sv = {
@@ -213,7 +215,8 @@
     'cat.auto': 'Bilar', 'cat.weather': 'Väder', 'cat.science': 'Vetenskap', 'cat.relax': 'Avkoppling',
     'cat.public': 'Public service', 'cat.interactive': 'Interaktivt',
     'share.title': 'Dela', 'share.meta': 'Kanalinfo', 'share.qr': 'QR-kod', 'share.via': 'Dela via', 'share.more': 'Mer…',
-    'pip.unsupported': 'Bild-i-bild stöds inte på den här enheten'
+    'pip.unsupported': 'Bild-i-bild stöds inte på den här enheten',
+    'share.getapp': 'Ladda ner appen'
   };
 
   D.uk = {
@@ -267,7 +270,8 @@
     'cat.auto': 'Авто', 'cat.weather': 'Погода', 'cat.science': 'Наука', 'cat.relax': 'Релакс',
     'cat.public': 'Суспільні', 'cat.interactive': 'Інтерактив',
     'share.title': 'Поділитися', 'share.meta': 'Інформація про канал', 'share.qr': 'QR-код', 'share.via': 'Поділитися через', 'share.more': 'Більше…',
-    'pip.unsupported': 'Режим «Зображення в зображенні» не підтримується на цьому пристрої'
+    'pip.unsupported': 'Режим «Зображення в зображенні» не підтримується на цьому пристрої',
+    'share.getapp': 'Завантажити застосунок'
   };
 
   D.es = {
@@ -321,7 +325,8 @@
     'cat.auto': 'Motor', 'cat.weather': 'Clima', 'cat.science': 'Ciencia', 'cat.relax': 'Relax',
     'cat.public': 'Públicos', 'cat.interactive': 'Interactivo',
     'share.title': 'Compartir', 'share.meta': 'Información del canal', 'share.qr': 'Código QR', 'share.via': 'Compartir vía', 'share.more': 'Más…',
-    'pip.unsupported': 'Imagen en imagen no compatible con este dispositivo'
+    'pip.unsupported': 'Imagen en imagen no compatible con este dispositivo',
+    'share.getapp': 'Descargar app'
   };
 
   D.de = {
@@ -375,7 +380,8 @@
     'cat.auto': 'Auto', 'cat.weather': 'Wetter', 'cat.science': 'Wissenschaft', 'cat.relax': 'Entspannung',
     'cat.public': 'Öffentlich', 'cat.interactive': 'Interaktiv',
     'share.title': 'Teilen', 'share.meta': 'Kanalinfo', 'share.qr': 'QR-Code', 'share.via': 'Teilen über', 'share.more': 'Mehr…',
-    'pip.unsupported': 'Bild-in-Bild wird auf diesem Gerät nicht unterstützt'
+    'pip.unsupported': 'Bild-in-Bild wird auf diesem Gerät nicht unterstützt',
+    'share.getapp': 'App herunterladen'
   };
 
   D.fr = {
@@ -429,7 +435,8 @@
     'cat.auto': 'Auto', 'cat.weather': 'Météo', 'cat.science': 'Science', 'cat.relax': 'Détente',
     'cat.public': 'Public', 'cat.interactive': 'Interactif',
     'share.title': 'Partager', 'share.meta': 'Infos chaîne', 'share.qr': 'Code QR', 'share.via': 'Partager via', 'share.more': 'Plus…',
-    'pip.unsupported': 'Image dans l’image non prise en charge sur cet appareil'
+    'pip.unsupported': 'Image dans l’image non prise en charge sur cet appareil',
+    'share.getapp': 'Télécharger l’appli'
   };
 
   D.it = {
@@ -483,7 +490,8 @@
     'cat.auto': 'Motori', 'cat.weather': 'Meteo', 'cat.science': 'Scienza', 'cat.relax': 'Relax',
     'cat.public': 'Pubblici', 'cat.interactive': 'Interattivo',
     'share.title': 'Condividi', 'share.meta': 'Info canale', 'share.qr': 'Codice QR', 'share.via': 'Condividi via', 'share.more': 'Altro…',
-    'pip.unsupported': 'Picture-in-picture non supportato su questo dispositivo'
+    'pip.unsupported': 'Picture-in-picture non supportato su questo dispositivo',
+    'share.getapp': 'Scarica app'
   };
 
   D.pt = {
@@ -537,7 +545,8 @@
     'cat.auto': 'Automotivo', 'cat.weather': 'Clima', 'cat.science': 'Ciência', 'cat.relax': 'Relax',
     'cat.public': 'Públicos', 'cat.interactive': 'Interativo',
     'share.title': 'Compartilhar', 'share.meta': 'Info do canal', 'share.qr': 'Código QR', 'share.via': 'Compartilhar via', 'share.more': 'Mais…',
-    'pip.unsupported': 'Picture-in-picture não suportado neste dispositivo'
+    'pip.unsupported': 'Picture-in-picture não suportado neste dispositivo',
+    'share.getapp': 'Baixar app'
   };
 
   D.pl = {
@@ -591,7 +600,8 @@
     'cat.auto': 'Motoryzacja', 'cat.weather': 'Pogoda', 'cat.science': 'Nauka', 'cat.relax': 'Relaks',
     'cat.public': 'Publiczne', 'cat.interactive': 'Interaktywne',
     'share.title': 'Udostępnij', 'share.meta': 'Info kanale', 'share.qr': 'Kod QR', 'share.via': 'Udostępnij przez', 'share.more': 'Więcej…',
-    'pip.unsupported': 'Tryb obrazu w obrazie nie jest obsługiwany na tym urządzeniu'
+    'pip.unsupported': 'Tryb obrazu w obrazie nie jest obsługiwany na tym urządzeniu',
+    'share.getapp': 'Pobierz aplikację'
   };
 
   D.tr = {
@@ -645,7 +655,8 @@
     'cat.auto': 'Otomobil', 'cat.weather': 'Hava durumu', 'cat.science': 'Bilim', 'cat.relax': 'Rahatlama',
     'cat.public': 'Kamu', 'cat.interactive': 'İnteraktif',
     'share.title': 'Paylaş', 'share.meta': 'Kanal bilgisi', 'share.qr': 'QR kod', 'share.via': 'Şununla paylaş', 'share.more': 'Daha…',
-    'pip.unsupported': 'Bu cihazda resim içinde resim desteklenmiyor'
+    'pip.unsupported': 'Bu cihazda resim içinde resim desteklenmiyor',
+    'share.getapp': 'Uygulamayı indir'
   };
 
   D.ar = {
@@ -699,7 +710,8 @@
     'cat.auto': 'سيارات', 'cat.weather': 'طقس', 'cat.science': 'علوم', 'cat.relax': 'استرخاء',
     'cat.public': 'عامة', 'cat.interactive': 'تفاعلي',
     'share.title': 'مشاركة', 'share.meta': 'معلومات القناة', 'share.qr': 'رمز QR', 'share.via': 'المشاركة عبر', 'share.more': 'المزيد…',
-    'pip.unsupported': 'الصورة داخل الصورة غير مدعومة على هذا الجهاز'
+    'pip.unsupported': 'الصورة داخل الصورة غير مدعومة على هذا الجهاز',
+    'share.getapp': 'تنزيل التطبيق'
   };
 
   D.hi = {
@@ -753,7 +765,8 @@
     'cat.auto': 'ऑटो', 'cat.weather': 'मौसम', 'cat.science': 'विज्ञान', 'cat.relax': 'रिलैक्स',
     'cat.public': 'सार्वजनिक', 'cat.interactive': 'इंटरैक्टिव',
     'share.title': 'साझा करें', 'share.meta': 'चैनल जानकारी', 'share.qr': 'QR कोड', 'share.via': 'इसके ज़रिए साझा करें', 'share.more': 'और…',
-    'pip.unsupported': 'इस डिवाइस पर पिक्चर-इन-पिक्चर समर्थित नहीं है'
+    'pip.unsupported': 'इस डिवाइस पर पिक्चर-इन-पिक्चर समर्थित नहीं है',
+    'share.getapp': 'ऐप डाउनलोड करें'
   };
 
   D.zh = {
@@ -807,7 +820,8 @@
     'cat.auto': '汽车', 'cat.weather': '天气', 'cat.science': '科学', 'cat.relax': '放松',
     'cat.public': '公共', 'cat.interactive': '互动',
     'share.title': '分享', 'share.meta': '频道信息', 'share.qr': '二维码', 'share.via': '通过以下方式分享', 'share.more': '更多…',
-    'pip.unsupported': '此设备不支持画中画'
+    'pip.unsupported': '此设备不支持画中画',
+    'share.getapp': '下载应用'
   };
 
   var LANGS = [

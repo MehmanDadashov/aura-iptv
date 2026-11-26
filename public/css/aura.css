@@ -683,3 +683,6 @@ body.data-saver .card-logo img, body.data-saver .drawer-item .d-logo-wrap img { 
 .share-t span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .share-t:active { transform: scale(.97); }
 @media (max-width: 420px) { .share-body { flex-direction: column; align-items: center; } .share-targets { width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 520px) { .share-targets { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.share-targets { gap: 6px; }
+.share-t { padding: 9px 8px; font-size: 12px; }

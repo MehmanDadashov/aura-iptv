@@ -1,8 +1,8 @@
-const CACHE_NAME = 'aura-iptv-v9';
+const CACHE_NAME = 'aura-iptv-v10';
 const urlsToCache = [
   '/',
   '/css/aura.css?v=2.1.3',
-  '/js/ui.js?v=2.4.0',
+  '/js/ui.js?v=2.5.0',
     '/js/qrcodegen.min.js?v=1.0.0',
   '/js/i18n.js?v=2.3.0',
   '/js/flags.js?v=2.2.0',

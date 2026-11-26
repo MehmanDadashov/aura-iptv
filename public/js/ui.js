@@ -882,6 +882,8 @@
 
   // ---------- share ----------
   var SHARE_STATE = { url: '', text: '' };
+  // Вебвью Capacitor отдаёт origin=localhost — шарим только боевой URL.
+  var SHARE_URL = 'https://tv.ai-studio.se/';
 
   function drawShareQR(canvas, text) {
     try {
@@ -904,9 +906,15 @@
   }
 
   function shareChannel() {
-    var url = location.origin + '/';
+    var url = SHARE_URL;
     var name = currentChannel ? currentChannel.name : 'AURA IPTV';
     var text = (currentChannel ? name + ' — ' : '') + t('share.text');
+
+    // В приложении — сразу системный выбор «куда отправить» (Android chooser).
+    var native = window.Android;
+    if (native && typeof native.shareText === 'function') {
+      try { native.shareText('AURA IPTV — ' + name, text, url); return; } catch (e) { /* fallthrough */ }
+    }
     SHARE_STATE.url = url;
     SHARE_STATE.text = text;
 
@@ -950,11 +958,18 @@
       return;
     }
     if (target === 'native') {
+      var nat = window.Android;
+      if (nat && typeof nat.shareText === 'function') {
+        try { nat.shareText('AURA IPTV', SHARE_STATE.text, SHARE_STATE.url); return; } catch (e) {}
+      }
       if (navigator.share) {
         navigator.share({ title: 'AURA IPTV', text: SHARE_STATE.text, url: SHARE_STATE.url }).catch(function () {});
       } else if (navigator.clipboard) {
         navigator.clipboard.writeText(SHARE_STATE.text + '\n' + SHARE_STATE.url).then(function () { toast(t('share.copied')); }, function () {});
       }
+    }
+    if (target === 'getapp') {
+      window.open('https://ai-studio.se/wp-content/uploads/apps/aura-iptv-android-v1.4.0.apk', '_blank', 'noopener');
     }
   }
 
@@ -1295,6 +1310,11 @@
     $('pShare').addEventListener('click', shareChannel);
 
     // share sheet
+    window.addEventListener('ad-error', function (e) {
+      var d = e.detail || {};
+      var known = { 1: 'invalid request (code 1)', 2: 'no network (code 2)', 3: 'NO FILL (code 3 — AdMob вернул пусто)' };
+      toast('Реклама [' + (d.where || 'ad') + ']: ' + (known[d.code] || ('code ' + d.code)));
+    });
     var shareModal = $('shareModal');
     if (shareModal) {
       $('shareCloseBtn').addEventListener('click', closeShare);
