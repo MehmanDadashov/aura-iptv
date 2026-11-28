@@ -1,0 +1,33 @@
+Google Play listing — AURA IPTV (com.auraiptv.app), v1.4.1 (versionCode 17)
+
+APP NAME (30 chars max):
+AURA IPTV
+
+SHORT DESCRIPTION (80 chars max):
+43,000+ free live TV channels from 230+ countries
+
+FULL DESCRIPTION:
+AURA IPTV — free online television. No registration, no subscription, no fees.
+
+• 43,000+ live channels from 230+ countries — news, sports, movies, music, documentaries, kids
+• Fast search across the whole catalog
+• Category browsing: Sports, News, Entertainment, Movies, Music, Religious, Animation, Business and more
+• Country browsing with flags
+• Background playback that survives tab switches and app switching
+• Lock-screen player controls with MediaSession
+• Picture-in-Picture on Android
+• Favorites for quick access to your channels
+• Colorful, vibrant dark interface
+• English + your device language (14 languages)
+• Free "Get App" page with QR and direct download
+• No account, no sign-up — open and watch
+
+Privacy policy: https://ai-studio.se/privacy.html
+Support: https://ai-studio.se/
+
+RELEASE NOTES (this version, 500 chars max):
+v1.4.1
+• Share opens the native Android chooser with the real public app link
+• "Get App" target links to the current download
+• Ad error codes now surface as a toast for faster support
+• Updated catalog counts across the app
